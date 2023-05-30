@@ -7,7 +7,6 @@
     gap: 30px;
 
     width: 100%;
-    height: 704px;
 
     /* Background */
 
@@ -26,7 +25,6 @@
         align-items: flex-start;
         padding: 0px;
         gap: 30px;
-
         height: 544px;
 
 
@@ -72,7 +70,7 @@
 
             .welcome_right_top {
                 width: 100%;
-                height: 401px;
+                
 
                 border-radius: 20px 20px 0px 0px;
 
@@ -139,7 +137,7 @@
                     padding: 0px;
                     gap: 12px;
 
-                   
+
 
                     border-radius: 20px;
 
@@ -301,8 +299,12 @@
                 order: 0;
                 flex-grow: 1;
 
-                p {
+                p:nth-child(1) {
                     font-family: 'Space Mono';
+                }
+
+                p {
+
                     font-style: normal;
                     font-weight: 700;
                     font-size: 28px;
@@ -344,8 +346,12 @@
                 order: 1;
                 flex-grow: 1;
 
-                p {
+                p:nth-child(1) {
                     font-family: 'Space Mono';
+                }
+
+                p {
+
                     font-style: normal;
                     font-weight: 700;
                     font-size: 28px;
@@ -387,8 +393,11 @@
                 order: 2;
                 flex-grow: 1;
 
-                p {
+                p:nth-child(1) {
                     font-family: 'Space Mono';
+                }
+
+                p {
                     font-style: normal;
                     font-weight: 700;
                     font-size: 28px;
@@ -427,6 +436,7 @@
 @media screen and (max-width:1095px) {
     .container {
         width: 690px;
+        background-color: yellow;
     }
 
 
@@ -434,11 +444,11 @@
         width: 330px;
     }
 
-  
+
 
     .welcome_section .welcome_left_top {
         width: 330px;
-        height: 138px;
+      
 
         /* H3 - Work Sans */
 
@@ -475,36 +485,17 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 140%;
-        /* or 22px */
-
-
-        /* White */
-
-        color: #FFFFFF;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
     }
 
     .welcome_right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-
+        
         width: 330px;
-        height: 330px;
 
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 1;
+        .welcome_right_top{
+            width: 100%;
+        }
+        .welcome_right_down{
+            width: 100%;
+        }
     }
 }
