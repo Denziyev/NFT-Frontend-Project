@@ -840,14 +840,137 @@ nav .left {
 }
 .creatorsSection .creatorcards {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-  width: 1050px;
   height: 774px;
   /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+.creatorsSection .creatorcards .newcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  isolation: isolate;
+  width: 240px;
+  height: 238px;
+  background: #3B3B3B;
+  border-radius: 20px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.creatorsSection .creatorcards .newcard img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  isolation: isolate;
+  width: 110px;
+  height: 120px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+.creatorsSection .creatorcards .newcard p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 20px;
+  top: 18px;
+  /* Background */
+  background: #2B2B2B;
+  border-radius: 20px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+.creatorsSection .creatorcards .newcard .creatorcardbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  width: 200px;
+  height: 58px;
+  /* Inside auto layout */
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+.creatorsSection .creatorcards .newcard .creatorcardbody div:nth-child(1) {
+  height: 31px;
+  /* H5 - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.creatorsSection .creatorcards .newcard .creatorcardbody div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  height: 22px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.creatorsSection .creatorcards .newcard .creatorcardbody div div:nth-child(1) {
+  /* Base(Body) - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: right;
+  /* Caption & Label Text */
+  color: #858584;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.creatorsSection .creatorcards .newcard .creatorcardbody div div:nth-child(2) {
+  /* Base (Body) - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* Text */
+  color: #FFFFFF;
 }
