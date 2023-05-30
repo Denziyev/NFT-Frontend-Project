@@ -71,7 +71,7 @@
             flex-grow: 1;
 
             .welcome_right_top {
-                width: 510px;
+                width: 100%;
                 height: 401px;
 
                 border-radius: 20px 20px 0px 0px;
@@ -92,7 +92,7 @@
                 padding: 20px;
                 gap: 10px;
 
-                width: 510px;
+                width: 100%;
                 height: 109px;
 
                 /* Background - Secondary */
@@ -139,8 +139,7 @@
                     padding: 0px;
                     gap: 12px;
 
-                    width: 470px;
-                    height: 24px;
+                   
 
                     border-radius: 20px;
 
@@ -422,4 +421,90 @@
 
 .container {
     width: 1050px;
+}
+
+
+@media screen and (max-width:1095px) {
+    .container {
+        width: 690px;
+    }
+
+
+    .welcome_left {
+        width: 330px;
+    }
+
+  
+
+    .welcome_section .welcome_left_top {
+        width: 330px;
+        height: 138px;
+
+        /* H3 - Work Sans */
+
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        /* or 46px */
+
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+
+        /* White */
+
+        color: yellow;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .welcome_left_down {
+        width: 330px;
+
+        /* Base(Body) - Work Sans */
+
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+
+        /* White */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .welcome_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        width: 330px;
+        height: 330px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
 }
