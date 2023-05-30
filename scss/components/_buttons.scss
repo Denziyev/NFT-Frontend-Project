@@ -1,0 +1,71 @@
+.inbutton{
+    height: 22px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 12px;
+
+width: 152px;
+height: 60px;
+
+/* Call to Action */
+
+background: #A259FF;
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+
+flex-grow: 0;
+transition: 0.5s;
+border: transparent;
+}
+
+.iconbutton{
+    width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.button1:hover{
+    scale: 0.95;
+    cursor: pointer;
+   
+}
+
+
+@media screen and (max-width:900px){
+    .button1{
+        display: none;
+    }
+}

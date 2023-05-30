@@ -1,12 +1,98 @@
 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  
     width: 100%;
-    height: 50px;
-    background-color: black;
-   
-    .navbar_container{
+    height: 100px;
+    
+    /* Background */
+    
+    background: #2B2B2B;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    transition: 0.5s;
+
+    .right{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto 0px;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 607px;
+height: 60px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+ button{
+    order:3;
+ }
+
+
     }
+
+    .iconlist{
+        display: none;
+    }
+
+    .left{
+        display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 243.41px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+}
+
+@media screen and (max-width:900px){
+    nav .right{
+        width:40px;     
+    }
+    nav .iconlist{
+        display: flex;
+       
+    }
+
+}
+
+@media screen and (max-width:400px){
+    nav .right{
+        width:25px;     
+    }
+    nav div img:nth-child(2){
+        width: 182px;
+        height: 24px;
+    }
+    nav .iconlist{
+        width: 24px;
+    }
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
