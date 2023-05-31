@@ -1080,3 +1080,324 @@ nav .left {
   align-self: stretch;
   flex-grow: 0;
 }
+
+.discoversection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 195px;
+  gap: 60px;
+  width: 100%;
+  height: 780px;
+  /* Background */
+  background: #2B2B2B;
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovertittlediv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 100px;
+  width: 1050px;
+  height: 91px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.discoversection .discovertittlediv .discovertittledivLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 763px;
+  height: 91px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.discoversection .discovertittlediv .discovertittledivLeft p:nth-child(1) {
+  height: 46px;
+  /* H3 - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovertittlediv .discovertittledivLeft p:nth-child(2) {
+  height: 35px;
+  /* Body Text- Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection button {
+  background-color: transparent;
+  width: 187px;
+  height: 60px;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+}
+.discoversection button p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  font-style: normal;
+}
+.discoversection button img {
+  width: 20px;
+  height: 20px;
+}
+.discoversection .discovercards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 469px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 330px;
+  height: 469px;
+  background: #3B3B3B;
+  border-radius: 20px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.discoversection .discovercards .discovercard .discovercarddown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 30px 25px;
+  gap: 25px;
+  width: 330px;
+  height: 173px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discoveravatar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  width: 270px;
+  height: 60px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discoveravatar p {
+  height: 31px;
+  /* H5 - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discoveravatar div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 270px;
+  height: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discoveravatar div:nth-child(2) img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 24px;
+  height: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discoveravatar div:nth-child(2) p {
+  width: 234px;
+  height: 22px;
+  /* Base (Body) - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 270px;
+  height: 43px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 21px 0px 0px;
+  gap: 8px;
+  width: 135px;
+  height: 43px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownLeft p:nth-child(1) {
+  height: 13px;
+  /* Caption - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  color: #858584;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownLeft p:nth-child(2) {
+  height: 22px;
+  /* Base (Body) - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+  width: 135px;
+  height: 43px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownRight p:nth-child(1) {
+  height: 13px;
+  /* Caption - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+  text-align: right;
+  color: #858584;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.discoversection .discovercards .discovercard .discovercarddown .discovercarddowndown .discovercarddowndownRight p:nth-child(2) {
+  height: 22px;
+  /* Base (Body) - Space Mono */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: right;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

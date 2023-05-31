@@ -40,7 +40,7 @@ for (let i = 1; i <= creatorimages.length; i++) {
       <div><div>Total Sales:</div><div>34.53 ETH</div></div>
       </div>
     `;
-    
+
     creatorcards.append(newcarddiv);
 }
 
@@ -48,35 +48,87 @@ for (let i = 1; i <= creatorimages.length; i++) {
 //-----------------------------------------------------
 
 
-const browse1=document.createElement("img");
-browse1.src="../assets/image/browseCategories/browse1.png";
-const browse2=document.createElement("img");
-browse2.src="../assets/image/browseCategories/browse2.png";
-const browse3=document.createElement("img");
-browse3.src="../assets/image/browseCategories/browse3.png";
-const browse4=document.createElement("img");
-browse4.src="../assets/image/browseCategories/browse4.png";
-const browse5=document.createElement("img");
-browse5.src="../assets/image/browseCategories/browse5.png";
-const browse6=document.createElement("img");
-browse6.src="../assets/image/browseCategories/browse6.png";
-const browse7=document.createElement("img");
-browse7.src="../assets/image/browseCategories/browse7.png";
-const browse8=document.createElement("img");
-browse8.src="../assets/image/browseCategories/browse8.png";
+const browse1 = document.createElement("img");
+browse1.src = "../assets/image/browseCategories/browse1.png";
+const browse2 = document.createElement("img");
+browse2.src = "../assets/image/browseCategories/browse2.png";
+const browse3 = document.createElement("img");
+browse3.src = "../assets/image/browseCategories/browse3.png";
+const browse4 = document.createElement("img");
+browse4.src = "../assets/image/browseCategories/browse4.png";
+const browse5 = document.createElement("img");
+browse5.src = "../assets/image/browseCategories/browse5.png";
+const browse6 = document.createElement("img");
+browse6.src = "../assets/image/browseCategories/browse6.png";
+const browse7 = document.createElement("img");
+browse7.src = "../assets/image/browseCategories/browse7.png";
+const browse8 = document.createElement("img");
+browse8.src = "../assets/image/browseCategories/browse8.png";
 
 const browsecards = document.querySelector(".browsecards");
 let browseimages = [browse1, browse2, browse3, browse4, browse5, browse6, browse7, browse8];
 let browsenames = ['Art', 'Collectibles', 'Music', 'Photography', 'Video', 'Utility', 'Sport', 'Virtual Worlds'];
 
-for(let i=0;i<browseimages.length;i++){
+for (let i = 0; i < browseimages.length; i++) {
     const newbrowsecarddiv = document.createElement("div");
-    newbrowsecarddiv.className="newbrowsecard";
-    newbrowsecarddiv.innerHTML=`
+    newbrowsecarddiv.className = "newbrowsecard";
+    newbrowsecarddiv.innerHTML = `
     <img src=${browseimages[i].src}>
     <div>
     <p>${browsenames[i]}</p>
     <div>
     `;
     browsecards.append(newbrowsecarddiv);
+}
+
+
+//--------------------------------------------------------------
+
+const discover1 = document.createElement("img");
+discover1.src = "../assets/image/NFTs/NFT1.png";
+const discover2 = document.createElement("img");
+discover2.src = "../assets/image/NFTs/NFT2.png";
+const discover3 = document.createElement("img");
+discover3.src = "../assets/image/NFTs/NFT3.png";
+
+let discoverimages = [discover1, discover2, discover3];
+let discovernames = ['Distant Galaxy', 'Life On Edena.', 'AstroFiction'];
+
+const discoveravatar1 = document.createElement("img");
+discoveravatar1.src = "../assets/image/avatars/avil/avatar16.png";
+const discoveravatar2 = document.createElement("img");
+discoveravatar2.src = "../assets/image/avatars/avil/avatar10.png";
+const discoveravatar3 = document.createElement("img");
+discoveravatar3.src = "../assets/image/avatars/avil/avatar15.png";
+
+let discoveravatarimages = [discoveravatar1, discoveravatar2, discoveravatar3];
+let discoveravatarnames = ['MoonDancer', 'NebulaKid', 'Spaceone'];
+const discovercards = document.querySelector(".discovercards")
+for (i = 0; i < discoveravatarimages.length; i++) {
+    const newdiscovercard = document.createElement("div");
+    newdiscovercard.className = "discovercard";
+    newdiscovercard.innerHTML = `
+    <img src=${discoverimages[i].src}>
+        <div class="discovercarddown">
+          <div class="discoveravatar">
+              <p>${discovernames[i]}</p>
+            <div>
+                <img src=${discoveravatarimages[i].src} alt="">
+              <p>${discoveravatarnames[i]}</p>
+            </div>
+          </div>
+
+        <div class="discovercarddowndown">
+        <div class="discovercarddowndownLeft">
+          <p>Price</p>
+          <p>1.63 ETH</p>
+        </div>
+        <div class="discovercarddowndownRight">
+          <p>Highest Bid</p>
+          <p>0.33 wETH</P>
+        </div>
+      </div>
+    </div>
+    `;
+    discovercards.append(newdiscovercard);
 }
