@@ -1415,3 +1415,150 @@ nav .left {
   width: 100%;
   height: 100%;
 }
+
+.howitworksSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 195px;
+  gap: 48px;
+  width: 100%;
+  height: 718px;
+  /* Background */
+  background: #2B2B2B;
+  /* Inside auto layout */
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.howitworksSection .howtittlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 1050px;
+  height: 91px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.howitworksSection .howtittlediv p:nth-child(1) {
+  height: 46px;
+  /* H3 - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  /* identical to box height, or 46px */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.howitworksSection .howtittlediv p:nth-child(2) {
+  height: 35px;
+  /* Body Text- Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.howitworksSection .howcards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  height: 439px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.howitworksSection .howcards .newhowcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 30px;
+  gap: 20px;
+  width: 330px;
+  height: 439px;
+  /* Background - Secondary */
+  background: #3B3B3B;
+  border-radius: 20px;
+  /* Inside auto layout */
+}
+.howitworksSection .howcards .newhowcard img {
+  width: 250px;
+  height: 250px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.howitworksSection .howcards .newhowcard div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 270px;
+  height: 129px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.howitworksSection .howcards .newhowcard div p:nth-child(1) {
+  height: 31px;
+  /* H5 - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.howitworksSection .howcards .newhowcard div p:nth-child(2) {
+  height: 88px;
+  /* Base(Body) - Work Sans */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

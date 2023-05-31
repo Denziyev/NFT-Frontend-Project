@@ -132,3 +132,32 @@ for (i = 0; i < discoveravatarimages.length; i++) {
     `;
     discovercards.append(newdiscovercard);
 }
+
+
+
+//-----------------------------------------------------------------
+
+const how1=document.createElement("img");
+how1.src="../assets/image/howItWorksImages/how1.png";
+const how2=document.createElement("img");
+how2.src="../assets/image/howItWorksImages/how2.png";
+const how3=document.createElement("img");
+how3.src="../assets/image/howItWorksImages/how3.png";
+
+const howcards=document.querySelector(".howcards")
+let howimages=[how1,how2,how3];
+let howtittles=['Setup Your wallet','Create Collection','Start Earning'];
+let howtexts=['Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.','Upload your work and setup your collection. Add a description, social links and floor price.','Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.'];
+
+for(let i=0;i<howimages.length;i++){
+    const newhowcard=document.createElement("div");
+    newhowcard.className="newhowcard";
+    newhowcard.innerHTML=`
+    <img src=${howimages[i].src}>
+    <div>
+    <p>${howtittles[i]}</p>
+    <p>${howtexts[i]}</P>
+    </div>
+    `
+    howcards.append(newhowcard);
+}
