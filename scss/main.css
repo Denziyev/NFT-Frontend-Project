@@ -2043,3 +2043,296 @@ footer .footerdown p {
   width: 20px;
   height: 20px;
 }
+
+.topcreatorSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 40px;
+  width: 100%;
+  height: 271px;
+  /* Background */
+  background: #2B2B2B;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+}
+.topcreatorSection div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 1050px;
+  height: 111px;
+}
+.topcreatorSection div p:nth-child(1) {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  /* or 56px */
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+}
+.topcreatorSection div p:nth-child(2) {
+  height: 35px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  /* White */
+  color: #FFFFFF;
+}
+
+.rankingsmenuSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 10px;
+  width: 100%;
+  height: 60px;
+  /* Background */
+  background: #2B2B2B;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+}
+.rankingsmenuSection div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1050px;
+  height: 60px;
+}
+.rankingsmenuSection div p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-align: center;
+  text-transform: capitalize;
+  /* Caption & Label Text */
+  color: #858584;
+}
+.rankingsmenuSection div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 16px;
+  width: 262.5px;
+  height: 60px;
+  /* Caption & Label Text */
+  border-bottom: 2px solid #858584;
+}
+.rankingsmenuSection div div p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-align: center;
+  text-transform: capitalize;
+  /* White */
+  color: #FFFFFF;
+}
+
+.tablerankingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 20px;
+  width: 100%;
+  height: 2206px;
+  /* Background */
+  background: #2B2B2B;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+}
+.tablerankingSection .tabletittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+  width: 1050px;
+  height: 46px;
+  /* Background - Secondary */
+  border: 1px solid #3B3B3B;
+  border-radius: 20px;
+}
+.tablerankingSection .tabletittle p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* Caption & Label Text */
+  color: #858584;
+}
+.tablerankingSection .tabletittle div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 1050px;
+  height: 22px;
+}
+.tablerankingSection .tabletittle div .tittleleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 0px;
+  gap: 20px;
+  width: 430px;
+  height: 22px;
+}
+.tablerankingSection .tabletittle div .tittleright {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+  gap: 100px;
+  width: 520px;
+  height: 22px;
+}
+.tablerankingSection .tabletittle div .tittleright p:nth-child(2) {
+  margin-left: 37px;
+}
+.tablerankingSection .rankingcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0px;
+  gap: 10px;
+  width: 1050px;
+  height: 84px;
+  /* Background - Secondary */
+  background: #3B3B3B;
+  border-radius: 20px;
+}
+.tablerankingSection .rankingcard div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 1050px;
+  height: 60px;
+}
+.tablerankingSection .rankingcard div .rankcardleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 430px;
+  height: 60px;
+}
+.tablerankingSection .rankingcard div .rankcardleft div {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 10px;
+  width: 30px;
+  height: 30px;
+  /* Background */
+  background: #2B2B2B;
+  border-radius: 20px;
+}
+.tablerankingSection .rankingcard div .rankcardleft div p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Caption & Label Text */
+  color: #858584;
+}
+.tablerankingSection .rankingcard div .rankcardleft .rankcardleftright {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 380px;
+  height: 60px;
+  background-color: transparent;
+}
+.tablerankingSection .rankingcard div .rankcardleft .rankcardleftright img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  width: 60px;
+  height: 60px;
+}
+.tablerankingSection .rankingcard div .rankcardleft .rankcardleftright p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.tablerankingSection .rankingcard div .rankcardright {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0px;
+  gap: 140px;
+  width: 520px;
+  height: 22px;
+}
+.tablerankingSection .rankingcard div .rankcardright p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* Text */
+  color: #FFFFFF;
+}
+.tablerankingSection .rankingcard div .rankcardright p:nth-child(1) {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* Green */
+  color: #00AC4F;
+}
+.tablerankingSection .rankingcard div .rankcardright p:nth-child(3) {
+  margin-left: 25px;
+}
