@@ -125,47 +125,13 @@
 
             }
         }
-
-        div:nth-child(1) {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 0px 30px;
-            gap: 16px;
-
-            width: 262.5px;
-            height: 60px;
-
-            /* Caption & Label Text */
-
+        div:hover{
             border-bottom: 2px solid #858584;
 
-            p {
-                height: 31px;
-
-                /* H5 - Work Sans */
-
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 22px;
-                line-height: 140%;
-                /* identical to box height, or 31px */
-
-                text-align: center;
-                text-transform: capitalize;
-
-                /* White */
-
+            p{
                 color: #FFFFFF;
-
             }
-
-
         }
-
-
 
     }
 }
@@ -264,6 +230,10 @@
 
         }
 
+    }
+
+    .rankingcard:hover{
+        border: 1px solid #FFFFFF;
     }
 
     .rankingcard {
