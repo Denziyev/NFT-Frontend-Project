@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0px;
     gap: 60px;
 
     width: 100%;
@@ -15,7 +14,6 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 2;
     align-self: stretch;
     flex-grow: 0;
 
@@ -25,7 +23,7 @@
         align-items: flex-start;
         padding: 0px;
         gap: 10px;
-
+         margin-top: 160px;
         width: 1046px;
         height: 91px;
 
@@ -33,7 +31,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 0;
         flex-grow: 0;
 
         p:nth-child(1) {
@@ -54,7 +51,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
         }
 
@@ -80,7 +76,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
         }
     }
@@ -96,7 +91,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 1;
         flex-grow: 0;
 
         .trendingcard {
@@ -126,7 +120,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 align-self: stretch;
                 flex-grow: 0;
             }
@@ -143,7 +136,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
                 align-self: stretch;
                 flex-grow: 0;
             }
@@ -162,7 +154,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
                 align-self: stretch;
                 flex-grow: 0;
 
@@ -186,7 +177,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -206,7 +196,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
                     align-self: stretch;
                     flex-grow: 0;
 
@@ -224,7 +213,6 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 0;
                         flex-grow: 0;
                     }
 
@@ -247,7 +235,6 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 1;
                         flex-grow: 1;
                     }
                 }
@@ -262,11 +249,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 195px;
     gap: 60px;
 
     width: 100%;
-    height: 1085px;
 
     /* Background */
 
@@ -275,7 +260,6 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 3;
     align-self: stretch;
     flex-grow: 0;
 
@@ -285,16 +269,13 @@
         flex-direction: row;
         align-items: flex-end;
         padding: 0px;
+        margin-top: 160px;
         gap: 100px;
 
-        height: 91px;
 
 
         /* Inside auto layout */
 
-        flex: none;
-        order: 0;
-        flex-grow: 0;
 
 
         .creatortittledivLeft {
@@ -311,7 +292,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 0;
 
             p:nth-child(1) {
@@ -336,7 +316,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 flex-grow: 1;
             }
 
@@ -362,7 +341,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 flex-grow: 1;
             }
 
@@ -402,7 +380,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 1;
         flex-grow: 0;
 
         .newcard {
@@ -422,7 +399,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
 
             img {
@@ -439,7 +415,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 flex-grow: 0;
                 z-index: 0;
             }
@@ -465,7 +440,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 2;
                 flex-grow: 0;
                 z-index: 2;
             }
@@ -485,7 +459,7 @@
                 /* Inside auto layout */
 
 
-                order: 1;
+
                 align-self: stretch;
                 flex-grow: 0;
                 z-index: 1;
@@ -511,7 +485,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -529,7 +502,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
                     align-self: stretch;
                     flex-grow: 0;
 
@@ -554,7 +526,6 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 0;
                         flex-grow: 1;
                     }
 
@@ -592,9 +563,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 195px;
-    gap: 60px;
-
+gap:15px;
     width: 100%;
     height: 928px;
 
@@ -605,35 +574,31 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 4;
     align-self: stretch;
     flex-grow: 0;
 
-    .browsetittlediv {
-        height: 46px;
+    .browsetittle {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-top: 160px;
 
-        /* H3 - Work Sans */
+        p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+            /* or 46px */
 
-        font-family: 'Work Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 38px;
-        line-height: 120%;
-        /* identical to box height, or 46px */
+            text-transform: capitalize;
 
-        text-transform: capitalize;
+            /* White */
 
-        /* White */
+            color: #FFFFFF;
 
-        color: #FFFFFF;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 1;
+        }
     }
 
     .browsecards {
@@ -650,7 +615,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 1;
         flex-grow: 0;
 
         .newbrowsecard {
@@ -668,7 +632,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
 
             img {
@@ -680,7 +643,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 align-self: stretch;
                 flex-grow: 0;
             }
@@ -699,7 +661,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
                 align-self: stretch;
                 flex-grow: 0;
 
@@ -725,7 +686,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -741,11 +701,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 195px;
     gap: 60px;
 
-    width: 100%;
-    height: 780px;
 
     /* Background */
 
@@ -754,12 +711,12 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 5;
     align-self: stretch;
     flex-grow: 0;
 
     .discovertittlediv {
         display: flex;
+        margin-top: 160px;
         flex-direction: row;
         align-items: flex-end;
         padding: 0px;
@@ -772,7 +729,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 0;
         flex-grow: 0;
 
         .discovertittledivLeft {
@@ -789,7 +745,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
 
             p:nth-child(1) {
@@ -814,7 +769,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
                 align-self: stretch;
                 flex-grow: 0;
             }
@@ -841,7 +795,7 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
+
                 align-self: stretch;
                 flex-grow: 0;
             }
@@ -883,7 +837,6 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 1;
         flex-grow: 0;
 
         .discovercard {
@@ -901,7 +854,6 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
             flex-grow: 1;
 
             .discovercarddown {
@@ -918,7 +870,6 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
                 align-self: stretch;
                 flex-grow: 0;
 
@@ -936,7 +887,6 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
                     align-self: stretch;
                     flex-grow: 0;
 
@@ -962,7 +912,6 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 0;
                         align-self: stretch;
                         flex-grow: 0;
                     }
@@ -981,7 +930,6 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 1;
                         align-self: stretch;
                         flex-grow: 0;
 
@@ -1000,7 +948,6 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 0;
                             flex-grow: 0;
                         }
 
@@ -1026,7 +973,7 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 1;
+
                             flex-grow: 1;
                         }
                     }
@@ -1045,7 +992,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
+
                     align-self: stretch;
                     flex-grow: 0;
 
@@ -1063,7 +1010,7 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 0;
+
                         flex-grow: 1;
 
                         p:nth-child(1) {
@@ -1085,7 +1032,7 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 0;
+
                             align-self: stretch;
                             flex-grow: 0;
                         }
@@ -1111,7 +1058,7 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 1;
+
                             align-self: stretch;
                             flex-grow: 0;
                         }
@@ -1132,7 +1079,7 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 1;
+
                         flex-grow: 1;
 
                         p:nth-child(1) {
@@ -1155,7 +1102,7 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 0;
+
                             align-self: stretch;
                             flex-grow: 0;
                         }
@@ -1182,7 +1129,7 @@
                             /* Inside auto layout */
 
                             flex: none;
-                            order: 1;
+
                             align-self: stretch;
                             flex-grow: 0;
                         }
@@ -1193,15 +1140,14 @@
     }
 }
 
-.nfthighlightSection {
+.nftHighLightSections {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
-    position: relative;
     width: 100%;
-    height: 660px;
+
 
     img {
         width: 100%;
@@ -1213,10 +1159,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 195px;
+
     gap: 48px;
 
-    width: 100%;
+
     height: 718px;
 
     /* Background */
@@ -1226,11 +1172,12 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 7;
+
     align-self: stretch;
     flex-grow: 0;
 
     .howtittlediv {
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -1244,7 +1191,7 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 0;
+
         flex-grow: 0;
 
         p:nth-child(1) {
@@ -1269,7 +1216,7 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 0;
+
             flex-grow: 0;
         }
 
@@ -1295,7 +1242,7 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 1;
+
             flex-grow: 0;
         }
     }
@@ -1313,7 +1260,7 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 1;
+
         flex-grow: 0;
 
         .newhowcard {
@@ -1343,7 +1290,7 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
+
                 flex-grow: 0;
             }
 
@@ -1361,7 +1308,7 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
+
                 align-self: stretch;
                 flex-grow: 0;
 
@@ -1386,7 +1333,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
+
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -1413,7 +1360,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
+
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -1426,11 +1373,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 195px 80px;
     gap: 10px;
-
-    width: 100%;
-    height: 550px;
+    margin-bottom: 80px;
+    margin-top: 40px;
 
     /* Background */
 
@@ -1439,7 +1384,7 @@
     /* Inside auto layout */
 
     flex: none;
-    order: 8;
+
     align-self: stretch;
     flex-grow: 0;
 
@@ -1449,8 +1394,6 @@
         align-items: center;
         padding: 60px;
         gap: 80px;
-
-        width: 1050px;
         height: 430px;
 
         background: #3B3B3B;
@@ -1459,7 +1402,7 @@
         /* Inside auto layout */
 
         flex: none;
-        order: 0;
+
         flex-grow: 0;
 
         img {
@@ -1482,7 +1425,7 @@
             /* Inside auto layout */
 
             flex: none;
-            order: 1;
+
             flex-grow: 0;
 
             .digesttop {
@@ -1499,7 +1442,7 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 0;
+
                 align-self: stretch;
                 flex-grow: 0;
 
@@ -1525,7 +1468,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 0;
+
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -1553,7 +1496,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
+
                     align-self: stretch;
                     flex-grow: 0;
                 }
@@ -1590,6 +1533,7 @@
                 color: #2B2B2B;
 
                 input {
+                    outline: none;
                     border: none;
 
                     ::placeholder {
@@ -1610,7 +1554,7 @@
                         /* Inside auto layout */
 
                         flex: none;
-                        order: 0;
+
                         flex-grow: 1;
                     }
                 }
@@ -1642,7 +1586,7 @@
                 /* Inside auto layout */
 
                 flex: none;
-                order: 1;
+
                 flex-grow: 0;
 
                 p {
@@ -1663,7 +1607,7 @@
                     /* Inside auto layout */
 
                     flex: none;
-                    order: 1;
+
                     flex-grow: 0;
                 }
 

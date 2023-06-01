@@ -85,31 +85,48 @@
     div {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         align-items: flex-start;
         padding: 0px;
 
         width: 1050px;
         height: 60px;
 
-        p {
-            font-family: 'Work Sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 22px;
-            line-height: 140%;
-            /* identical to box height, or 31px */
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 30px;
+            gap: 16px;
 
-            text-align: center;
-            text-transform: capitalize;
+            width: 262.5px;
+            height: 60px;
 
-            /* Caption & Label Text */
 
-            color: #858584;
+            p {
+                height: 31px;
 
+                /* H5 - Work Sans */
+                
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 140%;
+                /* identical to box height, or 31px */
+                
+                text-align: center;
+                text-transform: capitalize;
+                
+                /* Caption & Label Text */
+                
+                color: #858584;
+                
+
+            }
         }
 
-        div {
+        div:nth-child(1) {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -125,6 +142,10 @@
             border-bottom: 2px solid #858584;
 
             p {
+                height: 31px;
+
+                /* H5 - Work Sans */
+
                 font-family: 'Work Sans';
                 font-style: normal;
                 font-weight: 600;
@@ -140,7 +161,11 @@
                 color: #FFFFFF;
 
             }
+
+
         }
+
+
 
     }
 }
@@ -231,7 +256,7 @@
                 width: 520px;
                 height: 22px;
 
-                p:nth-child(2){
+                p:nth-child(2) {
                     margin-left: 37px;
                 }
 
@@ -352,7 +377,7 @@
             .rankcardright {
                 display: flex;
                 flex-direction: row;
-                justify-content:start;
+                justify-content: start;
                 align-items: center;
                 padding: 0px;
                 gap: 140px;
@@ -388,7 +413,7 @@
                     color: #00AC4F;
                 }
 
-                p:nth-child(3){
+                p:nth-child(3) {
                     margin-left: 25px;
                 }
             }

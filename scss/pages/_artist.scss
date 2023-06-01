@@ -1,0 +1,629 @@
+.artistfirstsection {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.Container {
+    width: 1050px;
+    margin: auto;
+}
+
+.artistimage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: -60px;
+    width: 1050px;
+    height: 120px;
+
+    img {
+        width: 120px;
+        height: 120px;
+        border: 2px solid #2B2B2B;
+        border-radius: 20px;
+    }
+}
+
+.artistdetails {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    margin: 40px;
+
+    .artistdetailsLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+
+        width: 599px;
+        height: 377px;
+
+        p:first-child {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 51px;
+            line-height: 110%;
+            /* or 56px */
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            /* White */
+
+            color: #FFFFFF;
+
+        }
+
+        .artistdetailsStatistics {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 20px;
+
+            width: 510px;
+            height: 74px;
+
+            border-radius: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+
+                width: 156.67px;
+                height: 74px;
+
+                border-radius: 20px;
+
+
+
+                p:nth-child(1) {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 140%;
+                    /* or 39px */
+
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+
+                    /* White */
+
+                    color: #FFFFFF;
+
+                }
+
+                p:nth-child(2) {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 160%;
+                    /* or 35px */
+
+                    text-transform: capitalize;
+
+                    /* White */
+
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .artistdetailsbio {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+
+            width: 599px;
+            height: 80px;
+
+            p:nth-child(1) {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 160%;
+                /* or 35px */
+
+                text-transform: capitalize;
+
+                color: #858584;
+
+            }
+
+            p:nth-child(2) {
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 160%;
+                /* or 35px */
+
+                text-transform: capitalize;
+
+                /* White */
+
+                color: #FFFFFF;
+
+            }
+        }
+
+        .artistdetailslinks {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+
+            width: 599px;
+            height: 77px;
+
+            p {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 160%;
+                /* or 35px */
+
+                text-transform: capitalize;
+
+                color: #858584;
+
+
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 10px;
+
+                width: 200px;
+                height: 32px;
+            }
+        }
+
+    }
+
+    .artistdetailsRight {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        width: 351px;
+        height: 60px;
+
+        button:nth-child(1) {
+            padding: 0px 50px;
+            gap: 12px;
+
+            width: 186px;
+            height: 60px;
+
+            /* Call to Action */
+
+            background: #A259FF;
+            border-radius: 20px;
+        }
+
+        button:nth-child(2) {
+            background-color: transparent;
+            padding: 0px 30px;
+            gap: 12px;
+
+            width: 145px;
+            height: 60px;
+
+            /* Call to Action */
+
+            border: 2px solid #A259FF;
+            border-radius: 20px;
+        }
+
+    }
+}
+
+.artistmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    height: 60px;
+    margin-bottom: 80px;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+        gap: 16px;
+
+        width: 350px;
+        height: 60px;
+
+        p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+
+            text-align: center;
+            text-transform: capitalize;
+
+            /* Caption & Label Text */
+
+            color: #858584;
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 10px;
+            gap: 10px;
+
+            width: 40px;
+            height: 32px;
+
+            /* Background - Secondary */
+
+            background: #3B3B3B;
+            border-radius: 20px;
+
+            p {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+
+
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    div:hover{
+        border-bottom: 2px solid #858584;
+
+        p{
+            color: #FFFFFF;
+        }
+        div{
+            background: #858584;
+        }
+    }
+}
+
+.artistcards {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+    /* Inside auto layout */
+
+
+
+    .artistcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        width: 330px;
+        height: 469px;
+
+        background: #3B3B3B;
+        border-radius: 20px;
+
+        /* Inside auto layout */
+
+ 
+
+        .artistcarddown {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px 30px 25px;
+            gap: 25px;
+
+            width: 330px;
+            height: 173px;
+
+
+            /* Inside auto layout */
+
+            .artistavatar {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 5px;
+
+                width: 270px;
+                height: 60px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                align-self: stretch;
+                flex-grow: 0;
+
+                p {
+                    height: 31px;
+
+                    /* H5 - Work Sans */
+
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 140%;
+                    /* identical to box height, or 31px */
+
+                    text-transform: capitalize;
+
+                    /* White */
+
+                    color: #FFFFFF;
+
+
+                    /* Inside auto layout */
+
+                    flex: none;
+                    align-self: stretch;
+                    flex-grow: 0;
+                }
+
+                div:nth-child(2) {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 12px;
+
+                    width: 270px;
+                    height: 24px;
+
+
+                    /* Inside auto layout */
+
+                    flex: none;
+                    align-self: stretch;
+                    flex-grow: 0;
+
+
+                    img {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+
+                        width: 24px;
+                        height: 24px;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+                        flex-grow: 0;
+                    }
+
+                    p {
+                        width: 234px;
+                        height: 22px;
+
+                        /* Base (Body) - Space Mono */
+
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        /* or 22px */
+
+
+                        /* White */
+
+                        color: #FFFFFF;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+
+                        flex-grow: 1;
+                    }
+                }
+            }
+
+            .artistcarddowndown {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+
+                width: 270px;
+                height: 43px;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+
+                align-self: stretch;
+                flex-grow: 0;
+
+                .artistcarddowndownLeft {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px 21px 0px 0px;
+                    gap: 8px;
+
+                    width: 135px;
+                    height: 43px;
+
+
+                    /* Inside auto layout */
+
+                    flex: none;
+
+                    flex-grow: 1;
+
+                    p:nth-child(1) {
+                        height: 13px;
+
+                        /* Caption - Space Mono */
+
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 110%;
+                        /* or 13px */
+
+
+                        color: #858584;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+
+                        align-self: stretch;
+                        flex-grow: 0;
+                    }
+
+                    p:nth-child(2) {
+                        height: 22px;
+
+                        /* Base (Body) - Space Mono */
+
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        /* or 22px */
+
+
+                        /* White */
+
+                        color: #FFFFFF;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+
+                        align-self: stretch;
+                        flex-grow: 0;
+                    }
+                }
+
+                .artistcarddowndownRight {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-end;
+                    padding: 0px;
+                    gap: 8px;
+
+                    width: 135px;
+                    height: 43px;
+
+
+                    /* Inside auto layout */
+
+                    flex: none;
+
+                    flex-grow: 1;
+
+                    p:nth-child(1) {
+                        height: 13px;
+
+                        /* Caption - Space Mono */
+
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 110%;
+                        /* or 13px */
+
+                        text-align: right;
+
+                        color: #858584;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+
+                        align-self: stretch;
+                        flex-grow: 0;
+                    }
+
+                    p:nth-child(2) {
+                        height: 22px;
+
+                        /* Base (Body) - Space Mono */
+
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        /* or 22px */
+
+                        text-align: right;
+
+                        /* White */
+
+                        color: #FFFFFF;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+
+                        align-self: stretch;
+                        flex-grow: 0;
+                    }
+                }
+            }
+        }
+    }
+}
