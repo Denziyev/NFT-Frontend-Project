@@ -1,18 +1,18 @@
-body{
+body {
     background: #2B2B2B;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
 }
+
+.createmainSectionLeft690 {
+    display: none;
+}
+
 .createmainSection {
+
     display: flex;
     flex-direction: row;
-
     padding: 0px;
     gap: 60px;
-
-    width: 1280px;
-    height: 691px;
 
     /* Background */
 
@@ -21,8 +21,17 @@ body{
     .createmainSectionLeft {
         width: 610px;
         height: 691px;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
+         img{
+            width: 610px;
+            height: 691px;
+            object-fit: cover;
+         }
+        
     }
+
 
     .createmainSectionRight {
         display: flex;
@@ -31,6 +40,7 @@ body{
         padding: 0px;
         gap: 40px;
         width: 460px;
+        margin-top: 100px;
 
 
         div:nth-child(1) {
@@ -42,17 +52,11 @@ body{
             width: 460px;
 
             p:nth-child(1) {
-                height: 56px;
-
-                /* H2 - Work Sans */
-
                 font-family: 'Work Sans';
                 font-style: normal;
                 font-weight: 600;
                 font-size: 51px;
                 line-height: 110%;
-                /* or 56px */
-
                 display: flex;
                 align-items: center;
                 text-transform: capitalize;
@@ -60,10 +64,6 @@ body{
             }
 
             p:nth-child(2) {
-                height: 70px;
-
-                /* Body Text- Work Sans */
-
                 font-family: 'Work Sans';
                 font-style: normal;
                 font-weight: 400;
@@ -85,18 +85,15 @@ body{
             flex-direction: column;
             align-items: flex-start;
             padding: 0px;
-            gap: 30px;
-
+            gap: 42px;
             width: 330px;
-            height: 305px;
 
             div:nth-child(1) {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 padding: 0px;
-                gap: 15px;
-
+                gap: 22px;
                 width: 330px;
                 height: 229px;
 
@@ -112,10 +109,28 @@ body{
                     background: #FFFFFF;
                     border: 1px solid #858584;
                     border-radius: 20px;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    input {
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        height: 22px;
+
+                        /* Base(Body) - Work Sans */
+
+                        font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        color: #2B2B2B;
+                    }
                 }
-
-
-
             }
 
             button {
@@ -125,18 +140,168 @@ body{
                 align-items: center;
                 padding: 0px 50px;
                 gap: 12px;
-
                 width: 330px;
                 height: 46px;
-
-
-                /* Call to Action */
-
                 background: #A259FF;
                 border-radius: 20px;
             }
 
         }
 
+    }
+}
+
+
+footer {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width:1050px) {
+    .Container {
+        width: 690px;
+        gap:40px;
+    }
+
+    .createmainSectionLeft {
+        width: 397px !important;
+        height: 615px;
+
+         img{
+            width: 397px;
+            height: 615px;
+            object-fit: cover;
+         }
+        
+    }
+
+    .createmainSectionRight {
+        padding: 80px 0px;
+        gap: 40px;
+        width: 397px !important;
+
+        div:nth-child(1) {
+            gap: 40px;
+            width: 325px;
+
+            p:nth-child(1) {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+            }
+
+            p:nth-child(2) {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+        }
+
+        .inputsandbutton{
+            gap: 30px;
+            width: 325px !important;
+
+            .inputs{
+                gap: 26px;
+
+                width: 325px;
+
+
+                div {
+                    padding: 16px 20px;
+                    gap: 12px;
+                    width: 325px;
+
+                }
+            }
+
+            .button1 {
+                padding: 0px 50px;
+                gap: 12px;
+
+
+                width: 325px;
+                height: 46px;
+            }
+        }
+
+    }
+
+}
+
+.footermain{
+    margin-top: 80px;
+}
+
+
+
+@media screen and(max-width:690px) {
+
+    .Container {
+        width: 315px;
+    }
+
+    .createmainSectionLeft690 {
+        width: 100%;
+        display: flex;
+        height: 232px;
+        object-fit: cover;
+    }
+
+    .createmainSectionLeft {
+        display: none;
+    }
+
+    .createmainSectionRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 40px;
+
+        div:nth-child(1) {
+            gap: 40px;
+
+            width: 315px;
+
+
+            p:nth-child(1) {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+            }
+
+            p:nth-child(2) {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+        }
+
+        div:nth-child(2) {
+            gap: 30px;
+
+            width: 315px;
+
+            div {
+                gap: 25px;
+                width: 315px;
+
+                div {
+                    gap: 12px;
+
+                    width: 315px;
+                    height: 46px;
+                }
+            }
+
+            button {
+                padding: 0px 50px;
+                gap: 12px;
+
+                width: 315px;
+                height: 46px;
+
+            }
+        }
     }
 }

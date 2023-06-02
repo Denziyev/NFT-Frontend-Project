@@ -33,7 +33,7 @@ for (let i = 1; i <= creatorimages.length; i++) {
     const newcarddiv = document.createElement("div");
     newcarddiv.classList.add("newcard");
     newcarddiv.innerHTML = `
-      <div>${i}</div>
+      <div class="numberr"><p>${i}</p></div>
       <img src=${creatorimages[i - 1].src}>
       <div class="creatorcardbody">
       <div>${creatornames[i - 1]}</div>
@@ -161,3 +161,9 @@ for(let i=0;i<howimages.length;i++){
     `
     howcards.append(newhowcard);
 }
+
+
+
+//-------------------------------------------------------------
+
+

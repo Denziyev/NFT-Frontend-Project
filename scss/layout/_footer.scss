@@ -2,40 +2,23 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 195px;
     margin-top: 80px;
     gap: 30px;
 
     width: 100%;
-    height: 334px;
+
 
     /* Background - Secondary */
 
     background: #3B3B3B;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 9;
-    align-self: stretch;
-    flex-grow: 0;
 
     .footermain {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: start;
         padding: 0px;
         gap: 31px;
-
-        height: 191px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
 
         .footermain1 {
             display: flex;
@@ -45,14 +28,8 @@ footer {
             gap: 30px;
 
             width: 327.41px;
-            height: 191px;
 
 
-            /* Inside auto layout */
-
-            flex: none;
-            order: 0;
-            flex-grow: 0;
 
             .footermain1logo {
                 width: 243.41px;
@@ -146,9 +123,7 @@ footer {
 
             /* Inside auto layout */
 
-            flex: none;
-            order: 1;
-            flex-grow: 0;
+
 
             p:nth-child(1) {
                 font-family: 'Space Mono';
@@ -174,11 +149,6 @@ footer {
                 height: 106px;
 
 
-                /* Inside auto layout */
-
-                flex: none;
-                order: 1;
-                flex-grow: 0;
 
                 a {
                     font-family: 'Work Sans';
@@ -210,13 +180,8 @@ footer {
             gap: 25px;
 
             width: 420px;
-            height: 184px;
 
-            /* Inside auto layout */
 
-            flex: none;
-            order: 2;
-            flex-grow: 0;
 
             p:nth-child(1) {
                 height: 35px;
@@ -235,11 +200,6 @@ footer {
                 color: #FFFFFF;
 
 
-                /* Inside auto layout */
-
-                flex: none;
-                order: 0;
-                flex-grow: 0;
             }
 
             p:nth-child(2) {
@@ -259,11 +219,7 @@ footer {
                 color: #CCCCCC;
 
 
-                /* Inside auto layout */
 
-                flex: none;
-                order: 0;
-                flex-grow: 0;
             }
 
             .footermain3down {
@@ -282,11 +238,7 @@ footer {
                 background: #FFFFFF;
                 border-radius: 20px;
 
-                /* Inside auto layout */
 
-                flex: none;
-                order: 1;
-                flex-grow: 0;
 
                 input {
                     outline: none;
@@ -309,11 +261,7 @@ footer {
                     background: #A259FF;
                     border-radius: 20px;
 
-                    /* Inside auto layout */
 
-                    flex: none;
-                    order: 1;
-                    flex-grow: 0;
 
                     p {
                         height: 22px;
@@ -363,4 +311,92 @@ footer {
             color: #CCCCCC;
         }
     }
+}
+
+
+@media screen and (max-width:1050px) {
+    footer {
+        width: 100% !important;
+    }
+
+    .Container {
+        width: 690px;
+    }
+
+    .footermain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footermain1 {
+        gap: 20px;
+        width: 690px !important;
+        order: 1;
+
+        .footermain1logo {
+            width: 243.41px;
+            height: 32px;
+
+            img:nth-child(1) {
+                width: 32px;
+                height: 32px;
+            }
+
+            img:nth-child(2) {
+                width: 199.41px;
+                height: 19.8px;
+            }
+        }
+
+        .footermain1down {
+            gap: 20px;
+            width: 100%;
+
+            p:nth-child(1) {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            .footermain1downdown {
+                gap: 15px;
+                width: 100%;
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+
+                .footerlogos {
+                    gap: 10px;
+                    width: 158px;
+
+                    img {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footermain2 {
+        order: 2;
+    }
+
+    .footermain3 {
+        order: 3;
+    }
+
+    .footerdown {
+        gap: 20px;
+        width: 690px !important;
+    }
+
+
+
 }
