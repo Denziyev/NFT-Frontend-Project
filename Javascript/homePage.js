@@ -76,7 +76,7 @@ for (let i = 0; i < browseimages.length; i++) {
     <img src=${browseimages[i].src}>
     <div>
     <p>${browsenames[i]}</p>
-    <div>
+    </div>
     `;
     browsecards.append(newbrowsecarddiv);
 }
