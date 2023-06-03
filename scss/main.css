@@ -544,7 +544,6 @@ footer .footermain .footermain3 .footermain3down {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: end;
   padding: 16px 0px 16px 20px;
   gap: 12px;
   width: 420px;
@@ -554,8 +553,19 @@ footer .footermain .footermain3 .footermain3down {
   border-radius: 20px;
 }
 footer .footermain .footermain3 .footermain3down input {
+  width: 209px;
+  height: 22px;
+  /* Base(Body) - Work Sans */
   outline: none;
   border: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  /* Background */
+  color: #2B2B2B;
 }
 footer .footermain .footermain3 .footermain3down button {
   display: flex;
@@ -712,20 +722,51 @@ footer .footerdown p {
     width: 315px !important;
     height: 44px !important;
   }
-  .footermain1 .footermain3 {
-    width: 315px !important;
+  .footermain3 {
+    height: 280px;
   }
-  .footermain1 .footermain3 p:nth-child(2) {
+  .footermain3down {
+    display: flex;
+    flex-direction: column !important;
+    gap: 16px !important;
     width: 315px !important;
-    height: 44px !important;
-    /* Base(Body) - Work Sans */
+    height: 108px !important;
+    background-color: transparent !important;
+  }
+  .footermain3down input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 315px !important;
+    padding: 20px 40px !important;
+    height: 46px !important;
+    border: 1px solid #858584;
+    border-radius: 20px;
+  }
+  .footermain3down button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center;
+    padding: 0px 50px !important;
+    gap: 12px;
+    width: 315px !important;
+    height: 46px !important;
+    /* Call to Action */
+    background: #A259FF;
+    border-radius: 20px;
+  }
+  .footermain3down button p {
+    height: 22px;
     font-family: "Work Sans";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     /* or 22px */
-    color: #CCCCCC;
+    text-align: center;
+    color: #FFFFFF;
   }
   .footerdown {
     gap: 20px;
@@ -3238,4 +3279,4 @@ footer {
 }
 .tablerankingSection .rankingcard div .rankcardright p:nth-child(3) {
   margin-left: 25px;
-}
+}/*# sourceMappingURL=main.css.map */

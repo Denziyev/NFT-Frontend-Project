@@ -203,7 +203,7 @@ footer {
             }
 
             p:nth-child(2) {
-          
+
                 height: 44px;
 
                 /* Base(Body) - Work Sans */
@@ -223,10 +223,10 @@ footer {
             }
 
             .footermain3down {
+
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: end;
                 padding: 16px 0px 16px 20px;
                 gap: 12px;
 
@@ -238,11 +238,24 @@ footer {
                 background: #FFFFFF;
                 border-radius: 20px;
 
-
-
                 input {
-                    outline: none;
+                    width: 209px;
+                    height: 22px;
+                    
+                    /* Base(Body) - Work Sans */
+                    outline:none;
                     border: none;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    /* or 22px */
+                    
+                    
+                    /* Background */
+                    
+                    color: #2B2B2B;
                 }
 
                 button {
@@ -260,8 +273,6 @@ footer {
 
                     background: #A259FF;
                     border-radius: 20px;
-
-
 
                     p {
                         height: 22px;
@@ -397,7 +408,7 @@ footer {
 
     .footermain3 {
         p:nth-child(2) {
-        
+
             height: 22px;
         }
 
@@ -452,38 +463,68 @@ footer {
             }
 
         }
+    }
 
-        .footermain3 {
+    .footermain3{
+        height: 280px;
+    }
 
-            width: 315px !important;
-            p:nth-child(2) {
-                width: 315px !important;
-                height: 44px !important;
+        .footermain3down {
+          display: flex;
+          flex-direction: column !important;
+          gap: 16px !important;
+          width: 315px !important;
+        height: 108px !important;
+          background-color: transparent !important;
+            input {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               gap: 12px;
+               width: 315px !important;
+              padding: 20px 40px !important;
+                height: 46px !important;
 
-                /* Base(Body) - Work Sans */
+                border: 1px solid #858584;
+                border-radius: 20px;
 
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 140%;
-                /* or 22px */
-
-
-                color: #CCCCCC;
             }
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center !important;
+                align-items: center;
+                padding: 0px 50px !important;
+                gap: 12px;
 
-            .footermain3down 
-            
+                width: 315px !important;
+                height: 46px !important;
 
-            
+                /* Call to Action */
+
+                background: #A259FF;
+                border-radius: 20px;
+
+                p {
+                    height: 22px;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    /* or 22px */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+            }
         }
-    }
 
-    .footerdown {
-        gap: 20px;
-        width: 315px;
-        height: 33px;
-    }
+        .footerdown {
+            gap: 20px;
+            width: 315px;
+            height: 33px;
+        }
 
-}
+    }
