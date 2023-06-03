@@ -530,7 +530,6 @@ footer .footermain .footermain3 p:nth-child(1) {
   color: #FFFFFF;
 }
 footer .footermain .footermain3 p:nth-child(2) {
-  width: 330px;
   height: 44px;
   /* Base(Body) - Work Sans */
   font-family: "Work Sans";
@@ -582,6 +581,9 @@ footer .footermain .footermain3 .footermain3down button p {
   text-align: center;
   color: #FFFFFF;
 }
+footer .footermain .footermain3 .footermain3down690 {
+  display: none;
+}
 footer .footerdown {
   display: flex;
   flex-direction: column;
@@ -612,7 +614,7 @@ footer .footerdown p {
     width: 100% !important;
   }
   .Container {
-    width: 690px;
+    width: 690px !important;
   }
   .footermain {
     display: flex;
@@ -642,6 +644,8 @@ footer .footerdown p {
     width: 100%;
   }
   .footermain1 .footermain1down p:nth-child(1) {
+    width: 690px;
+    height: 22px;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
@@ -669,9 +673,64 @@ footer .footerdown p {
   .footermain3 {
     order: 3;
   }
+  .footermain3 p:nth-child(2) {
+    height: 22px;
+  }
   .footerdown {
     gap: 20px;
-    width: 690px !important;
+    width: 690px;
+  }
+}
+@media screen and (max-width: 690px) {
+  footer {
+    width: 100% !important;
+  }
+  .Container {
+    width: 315px !important;
+  }
+  .footermain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .footermain1 {
+    gap: 20px;
+    width: 315px !important;
+    height: 185px !important;
+  }
+  .footermain1 .footermain1logo {
+    width: 243.41px;
+    height: 32px;
+  }
+  .footermain1 .footermain1down {
+    gap: 20px;
+    width: 315px !important;
+    height: 133px !important;
+  }
+  .footermain1 .footermain1down p {
+    width: 315px !important;
+    height: 44px !important;
+  }
+  .footermain1 .footermain3 {
+    width: 315px !important;
+  }
+  .footermain1 .footermain3 p:nth-child(2) {
+    width: 315px !important;
+    height: 44px !important;
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #CCCCCC;
+  }
+  .footerdown {
+    gap: 20px;
+    width: 315px;
+    height: 33px;
   }
 }
 .inbutton {
@@ -2330,8 +2389,8 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .createmainSection .createmainSectionLeft img {
-  width: 610px;
-  height: 691px;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -2440,36 +2499,36 @@ footer {
 @media screen and (max-width: 1050px) {
   .Container {
     width: 690px;
-    gap: 40px;
+    gap: 40px !important;
   }
   .createmainSectionLeft {
     width: 397px !important;
-    height: 615px;
+    height: 615px !important;
   }
   .createmainSectionLeft img {
-    width: 397px;
-    height: 615px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .createmainSectionRight {
     padding: 80px 0px;
     gap: 40px;
-    width: 397px !important;
+    width: 325px;
   }
   .createmainSectionRight div:nth-child(1) {
     gap: 40px;
-    width: 325px;
+    width: 325px !important;
   }
   .createmainSectionRight div:nth-child(1) p:nth-child(1) {
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 120%;
+    font-weight: 600 !important;
+    font-size: 38px !important;
+    line-height: 120% !important;
   }
   .createmainSectionRight div:nth-child(1) p:nth-child(2) {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 140% !important;
   }
   .createmainSectionRight .inputsandbutton {
     gap: 30px;
@@ -2477,11 +2536,11 @@ footer {
   }
   .createmainSectionRight .inputsandbutton .inputs {
     gap: 26px;
-    width: 325px;
+    width: 325px !important;
   }
   .createmainSectionRight .inputsandbutton .inputs div {
     padding: 16px 20px;
-    gap: 12px;
+    gap: 12px !important;
     width: 325px;
   }
   .createmainSectionRight .inputsandbutton .button1 {
@@ -2514,15 +2573,20 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 30px 0px 40px;
+    margin-bottom: 80px;
   }
   .createmainSectionRight div:nth-child(1) {
     gap: 40px;
-    width: 315px;
+    text-align: center !important;
+    width: 315px !important;
   }
   .createmainSectionRight div:nth-child(1) p:nth-child(1) {
+    width: 315px;
+    height: 46px;
     font-weight: 600;
     font-size: 38px;
     line-height: 120%;
+    text-align: center !important;
   }
   .createmainSectionRight div:nth-child(1) p:nth-child(2) {
     font-weight: 400;
@@ -2531,22 +2595,31 @@ footer {
   }
   .createmainSectionRight div:nth-child(2) {
     gap: 30px;
-    width: 315px;
+    width: 315px !important;
   }
   .createmainSectionRight div:nth-child(2) div {
     gap: 25px;
-    width: 315px;
+    width: 315px !important;
   }
   .createmainSectionRight div:nth-child(2) div div {
+    align-items: center;
+    padding: 16px 20px !important;
     gap: 12px;
-    width: 315px;
-    height: 46px;
+    width: 315px !important;
+    height: 46px !important;
+  }
+  .createmainSectionRight div:nth-child(2) div div input {
+    width: 243px !important;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
   }
   .createmainSectionRight div:nth-child(2) button {
     padding: 0px 50px;
     gap: 12px;
-    width: 315px;
-    height: 46px;
+    width: 315px !important;
+    height: 46px !important;
   }
 }
 .firstmarketplacesection {

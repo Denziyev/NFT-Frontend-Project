@@ -1,6 +1,5 @@
 body {
     background: #2B2B2B;
-
 }
 
 .createmainSectionLeft690 {
@@ -24,12 +23,12 @@ body {
         border: 1px solid #000000;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-         img{
-            width: 610px;
-            height: 691px;
+        img {
+            width: 100%;
+            height: 100%;
             object-fit: cover;
-         }
-        
+        }
+
     }
 
 
@@ -160,56 +159,56 @@ footer {
 @media screen and (max-width:1050px) {
     .Container {
         width: 690px;
-        gap:40px;
+        gap: 40px !important;
     }
 
     .createmainSectionLeft {
         width: 397px !important;
-        height: 615px;
+        height: 615px !important;
 
-         img{
-            width: 397px;
-            height: 615px;
-            object-fit: cover;
-         }
-        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
     }
 
     .createmainSectionRight {
         padding: 80px 0px;
         gap: 40px;
-        width: 397px !important;
+        width: 325px;
 
         div:nth-child(1) {
             gap: 40px;
-            width: 325px;
+            width: 325px !important;
 
             p:nth-child(1) {
-                font-weight: 600;
-                font-size: 38px;
-                line-height: 120%;
+                font-weight: 600 !important;
+                font-size: 38px !important;
+                line-height: 120% !important;
             }
 
             p:nth-child(2) {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 140%;
+                font-weight: 400 !important;
+                font-size: 16px !important;
+                line-height: 140% !important;
             }
         }
 
-        .inputsandbutton{
+        .inputsandbutton {
             gap: 30px;
             width: 325px !important;
 
-            .inputs{
+            .inputs {
                 gap: 26px;
 
-                width: 325px;
+                width: 325px !important;
 
 
                 div {
                     padding: 16px 20px;
-                    gap: 12px;
+                    gap: 12px !important;
                     width: 325px;
 
                 }
@@ -229,7 +228,7 @@ footer {
 
 }
 
-.footermain{
+.footermain {
     margin-top: 80px;
 }
 
@@ -257,17 +256,21 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 30px 0px 40px;
+        margin-bottom: 80px;
 
         div:nth-child(1) {
             gap: 40px;
-
-            width: 315px;
+            text-align: center !important;
+            width: 315px !important;
 
 
             p:nth-child(1) {
-                font-weight: 600;
+                width: 315px;
+                height: 46px;
+                font-weight: 600;      
                 font-size: 38px;
                 line-height: 120%;
+                text-align: center !important;
             }
 
             p:nth-child(2) {
@@ -280,17 +283,30 @@ footer {
         div:nth-child(2) {
             gap: 30px;
 
-            width: 315px;
+            width: 315px !important;
 
             div {
                 gap: 25px;
-                width: 315px;
+                width: 315px !important;
 
                 div {
+                    align-items: center;
+                    padding: 16px 20px !important;
                     gap: 12px;
 
-                    width: 315px;
-                    height: 46px;
+                    width: 315px !important;
+                    height: 46px !important;
+
+                    input {
+                        width: 243px !important;
+                        height: 22px;
+
+
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+
                 }
             }
 
@@ -298,8 +314,8 @@ footer {
                 padding: 0px 50px;
                 gap: 12px;
 
-                width: 315px;
-                height: 46px;
+                width: 315px !important;
+                height: 46px !important;
 
             }
         }

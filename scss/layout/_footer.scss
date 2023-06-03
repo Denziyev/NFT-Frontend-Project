@@ -203,7 +203,7 @@ footer {
             }
 
             p:nth-child(2) {
-                width: 330px;
+          
                 height: 44px;
 
                 /* Base(Body) - Work Sans */
@@ -278,6 +278,11 @@ footer {
                     }
                 }
             }
+
+            .footermain3down690 {
+                display: none;
+            }
+
         }
     }
 
@@ -320,7 +325,7 @@ footer {
     }
 
     .Container {
-        width: 690px;
+        width: 690px !important;
     }
 
     .footermain {
@@ -355,6 +360,8 @@ footer {
             width: 100%;
 
             p:nth-child(1) {
+                width: 690px;
+                height: 22px;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 140%;
@@ -389,14 +396,94 @@ footer {
     }
 
     .footermain3 {
+        p:nth-child(2) {
+        
+            height: 22px;
+        }
+
         order: 3;
     }
 
     .footerdown {
         gap: 20px;
-        width: 690px !important;
+        width: 690px;
     }
 
 
+
+}
+
+
+@media screen and (max-width:690px) {
+    footer {
+        width: 100% !important;
+    }
+
+    .Container {
+        width: 315px !important;
+    }
+
+    .footermain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footermain1 {
+        gap: 20px;
+        width: 315px !important;
+        height: 185px !important;
+
+        .footermain1logo {
+            width: 243.41px;
+            height: 32px;
+        }
+
+        .footermain1down {
+            gap: 20px;
+
+            width: 315px !important;
+            height: 133px !important;
+
+            p {
+                width: 315px !important;
+                height: 44px !important;
+            }
+
+        }
+
+        .footermain3 {
+
+            width: 315px !important;
+            p:nth-child(2) {
+                width: 315px !important;
+                height: 44px !important;
+
+                /* Base(Body) - Work Sans */
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+
+
+                color: #CCCCCC;
+            }
+
+            .footermain3down 
+            
+
+            
+        }
+    }
+
+    .footerdown {
+        gap: 20px;
+        width: 315px;
+        height: 33px;
+    }
 
 }
