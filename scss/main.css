@@ -136,7 +136,7 @@ nav .left {
   align-items: center;
   gap: 30px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -148,7 +148,6 @@ nav .left {
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-  height: 544px;
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
@@ -160,7 +159,6 @@ nav .left {
   padding: 0px;
   gap: 30px;
   width: 510px;
-  height: 544px;
   /* Inside auto layout */
 }
 .welcome_section .welcome_container .welcome_left .welcome_left_top div:nth-child(1) {
@@ -174,7 +172,7 @@ nav .left {
   align-items: center;
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .welcome_section .welcome_container .welcome_left .welcome_left_top div:nth-child(2) {
   font-family: "Work Sans";
@@ -182,10 +180,8 @@ nav .left {
   font-weight: 400;
   font-size: 22px;
   line-height: 160%;
-  /* or 35px */
   text-transform: capitalize;
-  /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -213,7 +209,6 @@ nav .left {
   align-items: flex-start;
   padding: 0px;
   width: 150px;
-  height: 77px;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -232,7 +227,7 @@ nav .left {
   align-items: center;
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -263,7 +258,7 @@ nav .left {
   align-items: center;
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -294,7 +289,7 @@ nav .left {
   align-items: center;
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -322,9 +317,8 @@ nav .left {
   align-items: center;
   padding: 20px;
   gap: 10px;
-  height: 109px;
   /* Background - Secondary */
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 0px 0px 20px 20px;
   /* Inside auto layout */
   flex: none;
@@ -339,7 +333,7 @@ nav .left {
   line-height: 140%;
   /* identical to box height, or 31px */
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -374,7 +368,7 @@ nav .left {
   font-size: 16px;
   line-height: 140%;
   /* or 22px */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -387,12 +381,18 @@ nav .left {
   .welcome_section {
     gap: 30px;
     width: 690px;
+<<<<<<< HEAD
+=======
     height: 381px;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
   }
   .welcome_container {
     gap: 30px;
     width: 690px;
+<<<<<<< HEAD
+=======
     height: 381px;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
   }
   .welcome_left {
     gap: 20px;
@@ -411,9 +411,15 @@ nav .left {
     /* H3 - Work Sans */
     font-family: "Work Sans";
     font-style: normal;
+<<<<<<< HEAD
+    font-weight: 600 !important;
+    font-size: 38px !important;
+    line-height: 120% !important;
+=======
     font-weight: 600;
     font-size: 38px;
     line-height: 120%;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
     /* or 46px */
     display: flex;
     align-items: center;
@@ -425,7 +431,11 @@ nav .left {
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
+<<<<<<< HEAD
+    font-size: 16px !important;
+=======
     font-size: 16px;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
     line-height: 140%;
   }
   .welcome_left_top button {
@@ -438,7 +448,11 @@ nav .left {
     width: 224px;
     height: 60px;
     /* Call to Action */
+<<<<<<< HEAD
+    background: #a259ff;
+=======
     background: #A259FF;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
     border-radius: 20px;
   }
   .welcome_left_down {
@@ -449,16 +463,36 @@ nav .left {
   }
   .welcome_left_down div {
     padding: 0px;
+<<<<<<< HEAD
+    width: 90px !important;
+    height: 57px !important;
+    border-radius: 20px;
+  }
+  .welcome_left_down div p:nth-child(1) {
+    font-weight: 700;
+    font-size: 22px !important;
+    line-height: 35px;
+  }
+  .welcome_left_down div p:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+=======
     width: 90px;
     height: 57px;
     border-radius: 20px;
   }
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
   .welcome_right {
     width: 330px;
   }
   .welcome_right .welcome_right_top {
     width: 330px;
+<<<<<<< HEAD
+=======
     height: 221px;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
   }
   .welcome_right .welcome_right_top img {
     width: 330px;
@@ -466,7 +500,10 @@ nav .left {
   }
   .welcome_right .welcome_right_down {
     width: 330px;
+<<<<<<< HEAD
+=======
     height: 109px;
+>>>>>>> 5602b4aa53aaae5583a309e1c2f6e5874154a965
   }
 }
 footer {
@@ -961,7 +998,7 @@ footer .footerdown p {
   gap: 60px;
   width: 100%;
   height: 836px;
-  background: #2B2B2B;
+  background: #2b2b2b;
 }
 .trendingSection .trendingtittlediv {
   display: flex;
@@ -980,7 +1017,7 @@ footer .footerdown p {
   font-size: 38px;
   line-height: 120%;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .trendingSection .trendingtittlediv p:nth-child(2) {
   height: 35px;
@@ -993,7 +1030,7 @@ footer .footerdown p {
   /* or 35px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -1020,7 +1057,7 @@ footer .footerdown p {
   width: 330px;
   height: 525px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -1069,7 +1106,7 @@ footer .footerdown p {
   line-height: 140%;
   /* identical to box height, or 31px */
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1110,7 +1147,7 @@ footer .footerdown p {
   font-size: 16px;
   line-height: 140%;
   /* or 22px */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -1123,7 +1160,7 @@ footer .footerdown p {
   gap: 60px;
   width: 100%;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1136,7 +1173,6 @@ footer .footerdown p {
   padding: 0px;
   margin-top: 160px;
   gap: 100px;
-  /* Inside auto layout */
 }
 .creatorsSection .creatortittlediv .creatortittledivLeft {
   display: flex;
@@ -1146,25 +1182,16 @@ footer .footerdown p {
   gap: 10px;
   width: 703px;
   height: 91px;
-  /* Inside auto layout */
-  flex: none;
-  flex-grow: 0;
 }
 .creatorsSection .creatortittlediv .creatortittledivLeft p:nth-child(1) {
   height: 46px;
-  /* H3 - Work Sans */
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
   line-height: 120%;
-  /* identical to box height, or 46px */
   text-transform: capitalize;
-  /* White */
-  color: #FFFFFF;
-  /* Inside auto layout */
-  flex: none;
-  flex-grow: 1;
+  color: #ffffff;
 }
 .creatorsSection .creatortittlediv .creatortittledivLeft p:nth-child(2) {
   height: 35px;
@@ -1177,14 +1204,14 @@ footer .footerdown p {
   /* or 35px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
 }
 .creatorsSection .creatortittlediv button {
   background-color: transparent;
-  border: 2px solid #A259FF;
+  border: 2px solid #a259ff;
   border-radius: 20px;
   width: 247px;
   height: 60px;
@@ -1214,7 +1241,7 @@ footer .footerdown p {
   gap: 20px;
   width: 240px;
   height: 238px;
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 20px;
   position: relative;
 }
@@ -1239,7 +1266,7 @@ footer .footerdown p {
   top: 18px;
   width: 30px;
   height: 30px;
-  background: #2B2B2B;
+  background: #2b2b2b;
   border-radius: 20px;
 }
 .creatorsSection .creatorcards .newcard .numberr p {
@@ -1268,7 +1295,7 @@ footer .footerdown p {
   line-height: 140%;
   text-align: center;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .creatorsSection .creatorcards .newcard .creatorcardbody div {
   display: flex;
@@ -1294,7 +1321,7 @@ footer .footerdown p {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .creatorsSection .creatorcards .newcard:hover {
   scale: 0.95;
@@ -1309,7 +1336,7 @@ footer .footerdown p {
   width: 100%;
   height: 928px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1331,7 +1358,7 @@ footer .footerdown p {
   /* or 46px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .browseSection .browsecards {
   display: flex;
@@ -1352,7 +1379,7 @@ footer .footerdown p {
   padding: 0px;
   width: 240px;
   height: 316px;
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -1391,7 +1418,7 @@ footer .footerdown p {
   /* identical to box height, or 31px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1404,7 +1431,7 @@ footer .footerdown p {
   align-items: center;
   gap: 60px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1446,7 +1473,7 @@ footer .footerdown p {
   /* identical to box height, or 46px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1463,7 +1490,7 @@ footer .footerdown p {
   /* or 35px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1473,7 +1500,7 @@ footer .footerdown p {
   background-color: transparent;
   width: 187px;
   height: 60px;
-  border: 2px solid #A259FF;
+  border: 2px solid #a259ff;
   border-radius: 20px;
 }
 .discoversection button p {
@@ -1505,7 +1532,7 @@ footer .footerdown p {
   padding: 0px;
   width: 330px;
   height: 469px;
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -1548,7 +1575,7 @@ footer .footerdown p {
   /* identical to box height, or 31px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1590,7 +1617,7 @@ footer .footerdown p {
   line-height: 140%;
   /* or 22px */
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -1644,7 +1671,7 @@ footer .footerdown p {
   line-height: 140%;
   /* or 22px */
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1690,7 +1717,7 @@ footer .footerdown p {
   /* or 22px */
   text-align: right;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1717,7 +1744,7 @@ footer .footerdown p {
   gap: 48px;
   height: 718px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1747,7 +1774,7 @@ footer .footerdown p {
   /* identical to box height, or 46px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
@@ -1763,7 +1790,7 @@ footer .footerdown p {
   /* or 35px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
@@ -1788,7 +1815,7 @@ footer .footerdown p {
   width: 330px;
   height: 439px;
   /* Background - Secondary */
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 20px;
   /* Inside auto layout */
 }
@@ -1823,7 +1850,7 @@ footer .footerdown p {
   /* identical to box height, or 31px */
   text-align: center;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1840,7 +1867,7 @@ footer .footerdown p {
   /* or 22px */
   text-align: center;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1853,7 +1880,7 @@ footer .footerdown p {
   align-items: center;
   gap: 10px;
   /* Background */
-  background: #2B2B2B;
+  background: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1866,7 +1893,7 @@ footer .footerdown p {
   padding: 60px;
   gap: 80px;
   height: 430px;
-  background: #3B3B3B;
+  background: #3b3b3b;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -1913,7 +1940,7 @@ footer .footerdown p {
   /* or 46px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1931,7 +1958,7 @@ footer .footerdown p {
   /* or 35px */
   text-transform: capitalize;
   /* White */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   align-self: stretch;
@@ -1947,7 +1974,7 @@ footer .footerdown p {
   width: 425px;
   height: 60px;
   /* Text */
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   /* Inside auto layout */
   font-family: "Work Sans";
@@ -1957,7 +1984,7 @@ footer .footerdown p {
   line-height: 140%;
   /* or 22px */
   /* Background */
-  color: #2B2B2B;
+  color: #2b2b2b;
 }
 .joindigestSection .joindigestcontainer div .digestdown input {
   outline: none;
@@ -1972,7 +1999,7 @@ footer .footerdown p {
   border: none;
   /* or 22px */
   /* Background */
-  color: #2B2B2B;
+  color: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -1986,7 +2013,7 @@ footer .footerdown p {
   border: none;
   /* or 22px */
   /* Background */
-  color: #2B2B2B;
+  color: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -2000,7 +2027,7 @@ footer .footerdown p {
   border: none;
   /* or 22px */
   /* Background */
-  color: #2B2B2B;
+  color: #2b2b2b;
   /* Inside auto layout */
   flex: none;
   flex-grow: 1;
@@ -2018,7 +2045,7 @@ footer .footerdown p {
   width: 211px;
   height: 60px;
   /* Call to Action */
-  background: #A259FF;
+  background: #a259ff;
   border-radius: 20px;
   /* Inside auto layout */
   flex: none;
@@ -2033,7 +2060,7 @@ footer .footerdown p {
   line-height: 140%;
   /* or 22px */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   /* Inside auto layout */
   flex: none;
   flex-grow: 0;
@@ -2047,6 +2074,105 @@ footer .footerdown p {
   margin-top: 80px;
 }
 
+@media screen and (max-width: 1050px) {
+  .trendingtittlediv {
+    width: 690px;
+    height: 71px;
+    gap: 10px !important;
+    margin-top: 120;
+  }
+  .trendingtittlediv p:nth-child(1) {
+    width: 690px;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 140%;
+  }
+  .trendingtittlediv p:nth-child(2) {
+    width: 690px;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 140%;
+  }
+  .trendingcards {
+    gap: 30px;
+    width: 690px;
+    height: 525px;
+  }
+  .trendingcards .trendingcard:nth-child(3) {
+    display: none !important;
+  }
+  .creatortittlediv {
+    gap: 100px;
+    width: 690px;
+    height: 93px;
+  }
+  .creatortittlediv .creatortittledivLeft {
+    gap: 10px;
+    width: 343px;
+    height: 93px;
+  }
+  .creatortittlediv .creatortittledivLeft p:nth-child(1) {
+    width: 343px;
+    height: 39px !important;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+  }
+  .creatortittlediv .creatortittledivLeft p:last-child {
+    width: 343px;
+    height: 44px !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 140%;
+  }
+  .creatortittlediv button {
+    padding: 0px 50px;
+    gap: 12px;
+    width: 247px;
+    height: 60px;
+    border: 2px solid #a259ff;
+    border-radius: 20px;
+  }
+  .creatortittlediv button p {
+    width: 115px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .creatorcards {
+    gap: 30px;
+    height: 360px;
+  }
+  .creatorcards .newcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    width: 330px;
+    height: 100px;
+    background: #3b3b3b;
+    border-radius: 20px;
+  }
+  .creatorcards .newcard .numberr {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+    top: 13px;
+  }
+  .creatorcards .newcard .numberr p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .creatorcards .newcard img {
+    width: 60px;
+    height: 60px;
+  }
+}
 .artistfirstsection {
   width: 100%;
 }

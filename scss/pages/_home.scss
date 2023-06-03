@@ -5,1523 +5,1546 @@
     gap: 60px;
     width: 100%;
     height: 836px;
-    background: #2B2B2B;
-
+    background: #2b2b2b;
+  
     .trendingtittlediv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+      margin-top: 160px;
+      width: 1046px;
+      height: 91px;
+  
+      p:nth-child(1) {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #ffffff;
+      }
+  
+      p:nth-child(2) {
+        height: 35px;
+  
+        /* Body Text- Work Sans */
+  
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        /* or 35px */
+  
+        text-transform: capitalize;
+  
+        /* White */
+  
+        color: #ffffff;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        flex-grow: 1;
+      }
+    }
+  
+    .trendingcards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      flex-grow: 0;
+  
+      img:hover {
+        scale: 0.95;
+      }
+  
+      .trendingcard {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px;
+  
+        width: 330px;
+        height: 525px;
+  
+        /* Background */
+  
+        background: #2b2b2b;
+        border-radius: 20px;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        flex-grow: 0;
+  
+        .trendingcardtop {
+          height: 330px;
+          border-radius: 20px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+        }
+  
+        .trendingcardmiddle {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 15px;
+          height: 100px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+        }
+  
+        .trendingcarddown {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 10px;
+  
+          width: 330px;
+          height: 65px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+  
+          div:nth-child(1) {
+            height: 31px;
+  
+            /* H5 - Work Sans */
+  
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+  
+            text-transform: capitalize;
+  
+            color: #ffffff;
+  
+            /* Inside auto layout */
+  
+            flex: none;
+            align-self: stretch;
+            flex-grow: 0;
+          }
+  
+          div:nth-child(2) {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 12px;
+  
+            width: 330px;
+            height: 24px;
+  
+            border-radius: 20px;
+  
+            /* Inside auto layout */
+  
+            flex: none;
+            align-self: stretch;
+            flex-grow: 0;
+  
+            img {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              padding: 0px;
+              gap: 10px;
+  
+              width: 24px;
+              height: 24px;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+              flex-grow: 0;
+            }
+  
+            p {
+              height: 22px;
+  
+              /* Base(Body) - Work Sans */
+  
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              /* or 22px */
+  
+              color: #ffffff;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .creatorsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  
+    width: 100%;
+  
+    /* Background */
+  
+    background: #2b2b2b;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+  
+    .creatortittlediv {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      padding: 0px;
+      margin-top: 160px;
+      gap: 100px;
+  
+      .creatortittledivLeft {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
         gap: 10px;
-        margin-top: 160px;
-        width: 1046px;
+        width: 703px;
         height: 91px;
-
+  
         p:nth-child(1) {
-            font-family: 'Work Sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 38px;
-            line-height: 120%;
-            text-transform: capitalize;
-            color: #FFFFFF;
+          height: 46px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 38px;
+          line-height: 120%;
+          text-transform: capitalize;
+          color: #ffffff;
         }
-
+  
         p:nth-child(2) {
-            height: 35px;
-
-            /* Body Text- Work Sans */
-
-            font-family: 'Work Sans';
+          height: 35px;
+  
+          /* Body Text- Work Sans */
+  
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 160%;
+          /* or 35px */
+  
+          text-transform: capitalize;
+  
+          /* White */
+  
+          color: #ffffff;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          flex-grow: 1;
+        }
+      }
+  
+      button {
+        background-color: transparent;
+        border: 2px solid #a259ff;
+        border-radius: 20px;
+        width: 247px;
+        height: 60px;
+  
+        img {
+          width: 20px;
+        }
+  
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+          height: 22px;
+        }
+      }
+    }
+  
+    .creatorcards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+      height: 774px;
+  
+      .newcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+        width: 240px;
+        height: 238px;
+        background: #3b3b3b;
+        border-radius: 20px;
+        position: relative;
+  
+        img {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          padding: 0px;
+          width: 110px;
+          height: 120px;
+        }
+  
+        .numberr {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          padding: 0px;
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 20px;
+          top: 18px;
+          width: 30px;
+          height: 30px;
+          background: #2b2b2b;
+          border-radius: 20px;
+  
+          p {
+            font-family: "Space Mono";
             font-style: normal;
             font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #858584;
+          }
+        }
+  
+        .creatorcardbody {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          width: 200px;
+          height: 58px;
+  
+          div:nth-child(1) {
+            height: 31px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
             font-size: 22px;
-            line-height: 160%;
-            /* or 35px */
-
+            line-height: 140%;
+            text-align: center;
             text-transform: capitalize;
-
-            /* White */
-
-            color: #FFFFFF;
-
-
-            /* Inside auto layout */
-
-            flex: none;
-            flex-grow: 1;
-        }
-    }
-
-    .trendingcards {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 30px;
-
-        /* Inside auto layout */
-
-        flex: none;
-        flex-grow: 0;
-
-        img:hover {
-            scale: 0.95;
-        }
-
-        .trendingcard {
+            color: #ffffff;
+          }
+  
+          div {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 0px;
-            gap: 15px;
-
-            width: 330px;
-            height: 525px;
-
-            /* Background */
-
-            background: #2B2B2B;
-            border-radius: 20px;
-
-            /* Inside auto layout */
-
-            flex: none;
-            flex-grow: 0;
-
-
-
-            .trendingcardtop {
-                height: 330px;
-                border-radius: 20px;
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
-            }
-
-            .trendingcardmiddle {
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                padding: 0px;
-                gap: 15px;
-                height: 100px;
-
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
-            }
-
-            .trendingcarddown {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 0px;
-                gap: 10px;
-
-                width: 330px;
-                height: 65px;
-
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
-
-                div:nth-child(1) {
-                    height: 31px;
-
-                    /* H5 - Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 22px;
-                    line-height: 140%;
-                    /* identical to box height, or 31px */
-
-                    text-transform: capitalize;
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-
-                div:nth-child(2) {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: flex-start;
-                    padding: 0px;
-                    gap: 12px;
-
-                    width: 330px;
-                    height: 24px;
-
-                    border-radius: 20px;
-
-                    /* Inside auto layout */
-
-                    flex: none;
-                    align-self: stretch;
-                    flex-grow: 0;
-
-                    img {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: flex-start;
-                        padding: 0px;
-                        gap: 10px;
-
-                        width: 24px;
-                        height: 24px;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-                        flex-grow: 0;
-                    }
-
-                    p {
-                        height: 22px;
-
-                        /* Base(Body) - Work Sans */
-
-                        font-family: 'Work Sans';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 140%;
-                        /* or 22px */
-
-
-                        color: #FFFFFF;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-                        flex-grow: 1;
-                    }
-                }
-            }
-        }
-
-    }
-}
-
-
-
-.creatorsSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 60px;
-
-    width: 100%;
-
-    /* Background */
-
-    background: #2B2B2B;
-
-    /* Inside auto layout */
-
-    flex: none;
-    align-self: stretch;
-    flex-grow: 0;
-
-
-    .creatortittlediv {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        padding: 0px;
-        margin-top: 160px;
-        gap: 100px;
-
-
-
-        /* Inside auto layout */
-
-
-
-        .creatortittledivLeft {
-            display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: center;
             align-items: flex-start;
             padding: 0px;
             gap: 10px;
-
-            width: 703px;
-            height: 91px;
-
-
-            /* Inside auto layout */
-
-            flex: none;
-            flex-grow: 0;
-
-            p:nth-child(1) {
-                height: 46px;
-
-                /* H3 - Work Sans */
-
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 38px;
-                line-height: 120%;
-                /* identical to box height, or 46px */
-
-                text-transform: capitalize;
-
-                /* White */
-
-                color: #FFFFFF;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                flex-grow: 1;
+            height: 22px;
+  
+            div:nth-child(1) {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              text-align: right;
+              color: #858584;
             }
-
-            p:nth-child(2) {
-                height: 35px;
-
-                /* Body Text- Work Sans */
-
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 22px;
-                line-height: 160%;
-                /* or 35px */
-
-                text-transform: capitalize;
-
-                /* White */
-
-                color: #FFFFFF;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                flex-grow: 1;
+  
+            div:nth-child(2) {
+              font-family: "Space Mono";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              color: #ffffff;
             }
-
-
+          }
         }
-
-        button {
-            background-color: transparent;
-            border: 2px solid #A259FF;
-            border-radius: 20px;
-            width: 247px;
-            height: 60px;
-
-            img {
-                width: 20px;
-            }
-
-            p {
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 140%;
-                height: 22px;
-            }
-        }
+      }
+  
+      .newcard:hover {
+        scale: 0.95;
+        cursor: pointer;
+      }
     }
-
-    .creatorcards {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 30px;
-        height: 774px;
-
-        .newcard {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            gap: 20px;
-            width: 240px;
-            height: 238px;
-            background: #3B3B3B;
-            border-radius: 20px;
-            position: relative;
-
-            img {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-                padding: 0px;
-                width: 110px;
-                height: 120px;
-            }
-
-            .numberr {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                padding: 0px;
-                position: absolute;
-                width: 30px;
-                height: 30px;
-                left: 20px;
-                top: 18px;
-                width: 30px;
-                height: 30px;
-                background: #2B2B2B;
-                border-radius: 20px;
-
-                p {
-                    font-family: 'Space Mono';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 140%;
-                    color: #858584;
-                }
-            }
-
-            .creatorcardbody {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 5px;
-                width: 200px;
-                height: 58px;
-
-                div:nth-child(1) {
-                    height: 31px;
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 22px;
-                    line-height: 140%;
-                    text-align: center;
-                    text-transform: capitalize;
-                    color: #FFFFFF;
-                }
-
-                div {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: flex-start;
-                    padding: 0px;
-                    gap: 10px;
-                    height: 22px;
-
-                    div:nth-child(1) {
-                        font-family: 'Work Sans';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 140%;
-                        text-align: right;
-                        color: #858584;
-                    }
-
-                    div:nth-child(2) {
-                        font-family: 'Space Mono';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 140%;            
-                        color: #FFFFFF;
-                    }
-                }
-            }
-        }
-
-        .newcard:hover {
-            scale: 0.95;
-            cursor: pointer;
-        }
-    }
-}
-
-
-.browseSection {
+  }
+  
+  .browseSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     width: 100%;
     height: 928px;
-
+  
     /* Background */
-
-    background: #2B2B2B;
-
+  
+    background: #2b2b2b;
+  
     /* Inside auto layout */
-
+  
     flex: none;
     align-self: stretch;
     flex-grow: 0;
-
+  
     .browsetittle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin-top: 160px;
+  
+      p {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        /* or 46px */
+  
+        text-transform: capitalize;
+  
+        /* White */
+  
+        color: #ffffff;
+      }
+    }
+  
+    .browsecards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+  
+      width: 1050px;
+      height: 662px;
+  
+      img:hover {
+        transform: scale(1.25);
+      }
+  
+      .newbrowsecard {
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
         align-items: center;
-        width: 100%;
-        margin-top: 160px;
-
-        p {
-            font-family: 'Work Sans';
+        padding: 0px;
+  
+        width: 240px;
+        height: 316px;
+  
+        background: #3b3b3b;
+        border-radius: 20px;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        flex-grow: 1;
+  
+        img {
+          width: 240px;
+          height: 240px;
+  
+          border-radius: 20px 20px 0px 0px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+        }
+  
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px 30px 25px;
+          gap: 25px;
+  
+          width: 240px;
+          height: 76px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+  
+          p {
+            height: 31px;
+  
+            /* H5 - Work Sans */
+  
+            font-family: "Work Sans";
             font-style: normal;
             font-weight: 600;
-            font-size: 38px;
-            line-height: 120%;
-            /* or 46px */
-
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+  
             text-transform: capitalize;
-
+  
             /* White */
-
-            color: #FFFFFF;
-
-        }
-    }
-
-    .browsecards {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 30px;
-
-        width: 1050px;
-        height: 662px;
-
-        img:hover {
-            transform: scale(1.25);
-        }
-
-        .newbrowsecard {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px;
-
-            width: 240px;
-            height: 316px;
-
-            background: #3B3B3B;
-            border-radius: 20px;
-
+  
+            color: #ffffff;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-            flex-grow: 1;
-
-            img {
-                width: 240px;
-                height: 240px;
-
-                border-radius: 20px 20px 0px 0px;
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
-            }
-
-            div {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 20px 30px 25px;
-                gap: 25px;
-
-                width: 240px;
-                height: 76px;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
-
-                p {
-                    height: 31px;
-
-                    /* H5 - Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 22px;
-                    line-height: 140%;
-                    /* identical to box height, or 31px */
-
-                    text-transform: capitalize;
-
-                    /* White */
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-            }
-
-
+            align-self: stretch;
+            flex-grow: 0;
+          }
         }
+      }
     }
-}
-
-
-.discoversection {
+  }
+  
+  .discoversection {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 60px;
-
-
+  
     /* Background */
-
-    background: #2B2B2B;
-
+  
+    background: #2b2b2b;
+  
     /* Inside auto layout */
-
+  
     flex: none;
     align-self: stretch;
     flex-grow: 0;
-
+  
     .discovertittlediv {
+      display: flex;
+      margin-top: 160px;
+      flex-direction: row;
+      align-items: flex-end;
+      padding: 0px;
+      gap: 100px;
+  
+      width: 1050px;
+      height: 91px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      flex-grow: 0;
+  
+      .discovertittledivLeft {
         display: flex;
-        margin-top: 160px;
-        flex-direction: row;
-        align-items: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 0px;
-        gap: 100px;
-
-        width: 1050px;
+        gap: 10px;
+  
+        width: 763px;
         height: 91px;
-
-
+  
         /* Inside auto layout */
-
+  
         flex: none;
-        flex-grow: 0;
-
-        .discovertittledivLeft {
+        flex-grow: 1;
+  
+        p:nth-child(1) {
+          height: 46px;
+  
+          /* H3 - Work Sans */
+  
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 38px;
+          line-height: 120%;
+          /* identical to box height, or 46px */
+  
+          text-transform: capitalize;
+  
+          /* White */
+  
+          color: #ffffff;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+        }
+  
+        p:nth-child(2) {
+          height: 35px;
+  
+          /* Body Text- Work Sans */
+  
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 160%;
+          /* or 35px */
+  
+          text-transform: capitalize;
+  
+          /* White */
+  
+          color: #ffffff;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+  
+          align-self: stretch;
+          flex-grow: 0;
+        }
+      }
+    }
+  
+    button {
+      background-color: transparent;
+      width: 187px;
+      height: 60px;
+  
+      border: 2px solid #a259ff;
+      border-radius: 20px;
+  
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        font-style: normal;
+      }
+  
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  
+    .discovercards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+  
+      width: 1050px;
+      height: 469px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      flex-grow: 0;
+  
+      .discovercard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+  
+        width: 330px;
+        height: 469px;
+  
+        background: #3b3b3b;
+        border-radius: 20px;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+        flex-grow: 1;
+  
+        .discovercarddown {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px 30px 25px;
+          gap: 25px;
+  
+          width: 330px;
+          height: 173px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+  
+          .discoveravatar {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             padding: 0px;
-            gap: 10px;
-
-            width: 763px;
-            height: 91px;
-
-
+            gap: 5px;
+  
+            width: 270px;
+            height: 60px;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-            flex-grow: 1;
-
-            p:nth-child(1) {
-                height: 46px;
-
-                /* H3 - Work Sans */
-
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 38px;
-                line-height: 120%;
-                /* identical to box height, or 46px */
-
-                text-transform: capitalize;
-
-                /* White */
-
-                color: #FFFFFF;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                align-self: stretch;
-                flex-grow: 0;
+            align-self: stretch;
+            flex-grow: 0;
+  
+            p {
+              height: 31px;
+  
+              /* H5 - Work Sans */
+  
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 140%;
+              /* identical to box height, or 31px */
+  
+              text-transform: capitalize;
+  
+              /* White */
+  
+              color: #ffffff;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+              align-self: stretch;
+              flex-grow: 0;
             }
-
-            p:nth-child(2) {
-                height: 35px;
-
-                /* Body Text- Work Sans */
-
-                font-family: 'Work Sans';
+  
+            div:nth-child(2) {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              padding: 0px;
+              gap: 12px;
+  
+              width: 270px;
+              height: 24px;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+              align-self: stretch;
+              flex-grow: 0;
+  
+              img {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 10px;
+  
+                width: 24px;
+                height: 24px;
+  
+                /* Inside auto layout */
+  
+                flex: none;
+                flex-grow: 0;
+              }
+  
+              p {
+                width: 234px;
+                height: 22px;
+  
+                /* Base (Body) - Space Mono */
+  
+                font-family: "Space Mono";
                 font-style: normal;
                 font-weight: 400;
-                font-size: 22px;
-                line-height: 160%;
-                /* or 35px */
-
-                text-transform: capitalize;
-
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+  
                 /* White */
-
-                color: #FFFFFF;
-
-
+  
+                color: #ffffff;
+  
                 /* Inside auto layout */
-
+  
                 flex: none;
-
-                align-self: stretch;
-                flex-grow: 0;
+  
+                flex-grow: 1;
+              }
             }
-        }
-    }
-
-    button {
-        background-color: transparent;
-        width: 187px;
-        height: 60px;
-
-        border: 2px solid #A259FF;
-        border-radius: 20px;
-
-        p {
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 140%;
-            font-style: normal;
-        }
-
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
-
-    .discovercards {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 30px;
-
-        width: 1050px;
-        height: 469px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        flex-grow: 0;
-
-        .discovercard {
+          }
+  
+          .discovercarddowndown {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-direction: row;
+            align-items: flex-start;
             padding: 0px;
-
-            width: 330px;
-            height: 469px;
-
-            background: #3B3B3B;
-            border-radius: 20px;
-
+  
+            width: 270px;
+            height: 43px;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-            flex-grow: 1;
-
-            .discovercarddown {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 20px 30px 25px;
-                gap: 25px;
-
-                width: 330px;
-                height: 173px;
-
-
+  
+            align-self: stretch;
+            flex-grow: 0;
+  
+            .discovercarddowndownLeft {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              padding: 0px 21px 0px 0px;
+              gap: 8px;
+  
+              width: 135px;
+              height: 43px;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+  
+              flex-grow: 1;
+  
+              p:nth-child(1) {
+                height: 13px;
+  
+                /* Caption - Space Mono */
+  
+                font-family: "Space Mono";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 110%;
+                /* or 13px */
+  
+                color: #858584;
+  
                 /* Inside auto layout */
-
+  
                 flex: none;
+  
                 align-self: stretch;
                 flex-grow: 0;
-
-                .discoveravatar {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    padding: 0px;
-                    gap: 5px;
-
-                    width: 270px;
-                    height: 60px;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-                    align-self: stretch;
-                    flex-grow: 0;
-
-                    p {
-                        height: 31px;
-
-                        /* H5 - Work Sans */
-
-                        font-family: 'Work Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 22px;
-                        line-height: 140%;
-                        /* identical to box height, or 31px */
-
-                        text-transform: capitalize;
-
-                        /* White */
-
-                        color: #FFFFFF;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-                        align-self: stretch;
-                        flex-grow: 0;
-                    }
-
-                    div:nth-child(2) {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: flex-start;
-                        padding: 0px;
-                        gap: 12px;
-
-                        width: 270px;
-                        height: 24px;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-                        align-self: stretch;
-                        flex-grow: 0;
-
-
-                        img {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: flex-start;
-                            padding: 0px;
-                            gap: 10px;
-
-                            width: 24px;
-                            height: 24px;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-                            flex-grow: 0;
-                        }
-
-                        p {
-                            width: 234px;
-                            height: 22px;
-
-                            /* Base (Body) - Space Mono */
-
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 140%;
-                            /* or 22px */
-
-
-                            /* White */
-
-                            color: #FFFFFF;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-
-                            flex-grow: 1;
-                        }
-                    }
-                }
-
-                .discovercarddowndown {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: flex-start;
-                    padding: 0px;
-
-                    width: 270px;
-                    height: 43px;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    align-self: stretch;
-                    flex-grow: 0;
-
-                    .discovercarddowndownLeft {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        padding: 0px 21px 0px 0px;
-                        gap: 8px;
-
-                        width: 135px;
-                        height: 43px;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-
-                        flex-grow: 1;
-
-                        p:nth-child(1) {
-                            height: 13px;
-
-                            /* Caption - Space Mono */
-
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 110%;
-                            /* or 13px */
-
-
-                            color: #858584;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-
-                            align-self: stretch;
-                            flex-grow: 0;
-                        }
-
-                        p:nth-child(2) {
-                            height: 22px;
-
-                            /* Base (Body) - Space Mono */
-
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 140%;
-                            /* or 22px */
-
-
-                            /* White */
-
-                            color: #FFFFFF;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-
-                            align-self: stretch;
-                            flex-grow: 0;
-                        }
-                    }
-
-                    .discovercarddowndownRight {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: flex-end;
-                        padding: 0px;
-                        gap: 8px;
-
-                        width: 135px;
-                        height: 43px;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-
-                        flex-grow: 1;
-
-                        p:nth-child(1) {
-                            height: 13px;
-
-                            /* Caption - Space Mono */
-
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 110%;
-                            /* or 13px */
-
-                            text-align: right;
-
-                            color: #858584;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-
-                            align-self: stretch;
-                            flex-grow: 0;
-                        }
-
-                        p:nth-child(2) {
-                            height: 22px;
-
-                            /* Base (Body) - Space Mono */
-
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 140%;
-                            /* or 22px */
-
-                            text-align: right;
-
-                            /* White */
-
-                            color: #FFFFFF;
-
-
-                            /* Inside auto layout */
-
-                            flex: none;
-
-                            align-self: stretch;
-                            flex-grow: 0;
-                        }
-                    }
-                }
+              }
+  
+              p:nth-child(2) {
+                height: 22px;
+  
+                /* Base (Body) - Space Mono */
+  
+                font-family: "Space Mono";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+  
+                /* White */
+  
+                color: #ffffff;
+  
+                /* Inside auto layout */
+  
+                flex: none;
+  
+                align-self: stretch;
+                flex-grow: 0;
+              }
             }
+  
+            .discovercarddowndownRight {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-end;
+              padding: 0px;
+              gap: 8px;
+  
+              width: 135px;
+              height: 43px;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+  
+              flex-grow: 1;
+  
+              p:nth-child(1) {
+                height: 13px;
+  
+                /* Caption - Space Mono */
+  
+                font-family: "Space Mono";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 110%;
+                /* or 13px */
+  
+                text-align: right;
+  
+                color: #858584;
+  
+                /* Inside auto layout */
+  
+                flex: none;
+  
+                align-self: stretch;
+                flex-grow: 0;
+              }
+  
+              p:nth-child(2) {
+                height: 22px;
+  
+                /* Base (Body) - Space Mono */
+  
+                font-family: "Space Mono";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+  
+                text-align: right;
+  
+                /* White */
+  
+                color: #ffffff;
+  
+                /* Inside auto layout */
+  
+                flex: none;
+  
+                align-self: stretch;
+                flex-grow: 0;
+              }
+            }
+          }
         }
+      }
     }
-}
-
-.nftHighLightSections {
+  }
+  
+  .nftHighLightSections {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     width: 100%;
-
-
+  
     img {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
-}
-
-.howitworksSection {
+  }
+  
+  .howitworksSection {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+  
     gap: 48px;
-
-
+  
     height: 718px;
-
+  
     /* Background */
-
-    background: #2B2B2B;
-
+  
+    background: #2b2b2b;
+  
     /* Inside auto layout */
-
+  
     flex: none;
-
+  
     align-self: stretch;
     flex-grow: 0;
-
+  
     .howtittlediv {
-        margin-top: 40px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+  
+      width: 1050px;
+      height: 91px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+  
+      flex-grow: 0;
+  
+      p:nth-child(1) {
+        height: 46px;
+  
+        /* H3 - Work Sans */
+  
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        /* identical to box height, or 46px */
+  
+        text-transform: capitalize;
+  
+        /* White */
+  
+        color: #ffffff;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+  
+        flex-grow: 0;
+      }
+  
+      p:nth-child(2) {
+        height: 35px;
+  
+        /* Body Text- Work Sans */
+  
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        /* or 35px */
+  
+        text-transform: capitalize;
+  
+        /* White */
+  
+        color: #ffffff;
+  
+        /* Inside auto layout */
+  
+        flex: none;
+  
+        flex-grow: 0;
+      }
+    }
+  
+    .howcards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+  
+      height: 439px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+  
+      flex-grow: 0;
+  
+      .newhowcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 30px 30px;
+        gap: 20px;
+  
+        width: 330px;
+        height: 439px;
+  
+        /* Background - Secondary */
+  
+        background: #3b3b3b;
+        border-radius: 20px;
+  
+        /* Inside auto layout */
+  
+        img {
+          width: 250px;
+          height: 250px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+  
+          flex-grow: 0;
+        }
+  
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0px;
+          gap: 10px;
+  
+          width: 270px;
+          height: 129px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+  
+          align-self: stretch;
+          flex-grow: 0;
+  
+          p:nth-child(1) {
+            height: 31px;
+  
+            /* H5 - Work Sans */
+  
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            /* identical to box height, or 31px */
+  
+            text-align: center;
+            text-transform: capitalize;
+  
+            color: #ffffff;
+  
+            /* Inside auto layout */
+  
+            flex: none;
+  
+            align-self: stretch;
+            flex-grow: 0;
+          }
+  
+          p:nth-child(2) {
+            height: 88px;
+  
+            /* Base(Body) - Work Sans */
+  
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            /* or 22px */
+  
+            text-align: center;
+  
+            /* White */
+  
+            color: #ffffff;
+  
+            /* Inside auto layout */
+  
+            flex: none;
+  
+            align-self: stretch;
+            flex-grow: 0;
+          }
+        }
+      }
+    }
+  }
+  
+  .joindigestSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    gap: 10px;
+  
+    /* Background */
+  
+    background: #2b2b2b;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+  
+    align-self: stretch;
+    flex-grow: 0;
+  
+    .joindigestcontainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 60px;
+      gap: 80px;
+      height: 430px;
+  
+      background: #3b3b3b;
+      border-radius: 20px;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+  
+      flex-grow: 0;
+  
+      img {
+        width: 425px;
+        height: 310px;
+        border-radius: 20px;
+      }
+  
+      div {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
-        gap: 10px;
-
-        width: 1050px;
-        height: 91px;
-
-
+        gap: 40px;
+  
+        width: 425px;
+        height: 272px;
+  
         /* Inside auto layout */
-
+  
         flex: none;
-
+  
         flex-grow: 0;
-
-        p:nth-child(1) {
-            height: 46px;
-
+  
+        .digesttop {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 10px;
+  
+          width: 425px;
+          height: 172px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+  
+          align-self: stretch;
+          flex-grow: 0;
+  
+          p:nth-child(1) {
+            height: 92px;
+  
             /* H3 - Work Sans */
-
-            font-family: 'Work Sans';
+  
+            font-family: "Work Sans";
             font-style: normal;
             font-weight: 600;
             font-size: 38px;
             line-height: 120%;
-            /* identical to box height, or 46px */
-
+            /* or 46px */
+  
             text-transform: capitalize;
-
+  
             /* White */
-
-            color: #FFFFFF;
-
-
+  
+            color: #ffffff;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-
+  
+            align-self: stretch;
             flex-grow: 0;
-        }
-
-        p:nth-child(2) {
-            height: 35px;
-
+          }
+  
+          p:nth-child(2) {
+            width: 425px;
+            height: 70px;
+  
             /* Body Text- Work Sans */
-
-            font-family: 'Work Sans';
+  
+            font-family: "Work Sans";
             font-style: normal;
             font-weight: 400;
             font-size: 22px;
             line-height: 160%;
             /* or 35px */
-
+  
             text-transform: capitalize;
-
+  
             /* White */
-
-            color: #FFFFFF;
-
-
+  
+            color: #ffffff;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-
+  
+            align-self: stretch;
             flex-grow: 0;
+          }
         }
-    }
-
-    .howcards {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 30px;
-
-        height: 439px;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-
-        flex-grow: 0;
-
-        .newhowcard {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px 30px 30px;
-            gap: 20px;
-
-
-            width: 330px;
-            height: 439px;
-
-            /* Background - Secondary */
-
-            background: #3B3B3B;
-            border-radius: 20px;
-
-            /* Inside auto layout */
-
-
-            img {
-                width: 250px;
-                height: 250px;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-
-                flex-grow: 0;
+  
+        .digestdown {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: end;
+          padding: 16px 0px 16px 20px;
+          gap: 12px;
+  
+          width: 425px;
+          height: 60px;
+  
+          /* Text */
+  
+          background: #ffffff;
+          border-radius: 20px;
+  
+          /* Inside auto layout */
+  
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          /* or 22px */
+  
+          /* Background */
+  
+          color: #2b2b2b;
+  
+          input {
+            outline: none;
+            border: none;
+  
+            ::placeholder {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 140%;
+              border: none;
+              /* or 22px */
+  
+              /* Background */
+  
+              color: #2b2b2b;
+  
+              /* Inside auto layout */
+  
+              flex: none;
+  
+              flex-grow: 1;
             }
-
-            div {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 0px;
-                gap: 10px;
-
-                width: 270px;
-                height: 129px;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-
-                align-self: stretch;
-                flex-grow: 0;
-
-                p:nth-child(1) {
-                    height: 31px;
-
-                    /* H5 - Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 22px;
-                    line-height: 140%;
-                    /* identical to box height, or 31px */
-
-                    text-align: center;
-                    text-transform: capitalize;
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-
-                p:nth-child(2) {
-                    height: 88px;
-
-                    /* Base(Body) - Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 140%;
-                    /* or 22px */
-
-                    text-align: center;
-
-                    /* White */
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-            }
+          }
+  
+          input:focus {
+            border: none;
+          }
         }
-    }
-}
-
-.joindigestSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 10px;
-
-    /* Background */
-
-    background: #2B2B2B;
-
-    /* Inside auto layout */
-
-    flex: none;
-
-    align-self: stretch;
-    flex-grow: 0;
-
-    .joindigestcontainer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 60px;
-        gap: 80px;
-        height: 430px;
-
-        background: #3B3B3B;
-        border-radius: 20px;
-
-        /* Inside auto layout */
-
-        flex: none;
-
-        flex-grow: 0;
-
-        img {
-            width: 425px;
-            height: 310px;
-            border-radius: 20px;
-        }
-
-        div {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 0px;
-            gap: 40px;
-
-            width: 425px;
-            height: 272px;
-
-
+  
+        button {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 0px 50px;
+          gap: 12px;
+  
+          width: 211px;
+          height: 60px;
+  
+          /* Call to Action */
+  
+          background: #a259ff;
+          border-radius: 20px;
+  
+          /* Inside auto layout */
+  
+          flex: none;
+  
+          flex-grow: 0;
+  
+          p {
+            height: 22px;
+  
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            /* or 22px */
+  
+            text-align: center;
+  
+            color: #ffffff;
+  
             /* Inside auto layout */
-
+  
             flex: none;
-
+  
             flex-grow: 0;
-
-            .digesttop {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 0px;
-                gap: 10px;
-
-                width: 425px;
-                height: 172px;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-
-                align-self: stretch;
-                flex-grow: 0;
-
-                p:nth-child(1) {
-                    height: 92px;
-
-                    /* H3 - Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 38px;
-                    line-height: 120%;
-                    /* or 46px */
-
-                    text-transform: capitalize;
-
-                    /* White */
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-
-                p:nth-child(2) {
-                    width: 425px;
-                    height: 70px;
-
-                    /* Body Text- Work Sans */
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 22px;
-                    line-height: 160%;
-                    /* or 35px */
-
-                    text-transform: capitalize;
-
-                    /* White */
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    align-self: stretch;
-                    flex-grow: 0;
-                }
-            }
-
-            .digestdown {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: end;
-                padding: 16px 0px 16px 20px;
-                gap: 12px;
-
-                width: 425px;
-                height: 60px;
-
-                /* Text */
-
-                background: #FFFFFF;
-                border-radius: 20px;
-
-                /* Inside auto layout */
-
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 140%;
-                /* or 22px */
-
-
-                /* Background */
-
-                color: #2B2B2B;
-
-                input {
-                    outline: none;
-                    border: none;
-
-                    ::placeholder {
-                        font-family: 'Work Sans';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 140%;
-                        border: none;
-                        /* or 22px */
-
-
-                        /* Background */
-
-                        color: #2B2B2B;
-
-
-                        /* Inside auto layout */
-
-                        flex: none;
-
-                        flex-grow: 1;
-                    }
-                }
-
-                input:focus {
-                    border: none;
-                }
-
-
-
-            }
-
-            button {
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
-                align-items: center;
-                padding: 0px 50px;
-                gap: 12px;
-
-                width: 211px;
-                height: 60px;
-
-                /* Call to Action */
-
-                background: #A259FF;
-                border-radius: 20px;
-
-                /* Inside auto layout */
-
-                flex: none;
-
-                flex-grow: 0;
-
-                p {
-                    height: 22px;
-
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    line-height: 140%;
-                    /* or 22px */
-
-                    text-align: center;
-
-                    color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
-                    flex: none;
-
-                    flex-grow: 0;
-                }
-
-                img {
-                    width: 20px;
-                    height: 20px;
-
-                }
-            }
+          }
+  
+          img {
+            width: 20px;
+            height: 20px;
+          }
         }
+      }
     }
-}
-
-.footerhome{
+  }
+  
+  .footerhome {
     margin-top: 80px;
-}
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .trendingtittlediv {
+      width: 690px;
+      height: 71px;
+      gap: 10px !important;
+      margin-top: 120;
+      p:nth-child(1) {
+        width: 690px;
+        font-weight: 600;
+        font-size: 28px !important;
+        line-height: 140%;
+      }
+  
+      p:nth-child(2) {
+        width: 690px;
+        font-weight: 400;
+        font-size: 16px !important;
+        line-height: 140%;
+      }
+    }
+  
+    .trendingcards {
+      gap: 30px;
+  
+      width: 690px;
+      height: 525px;
+  
+      .trendingcard {
+        &:nth-child(3) {
+          display: none !important;
+        }
+      }
+    }
+  
+    .creatortittlediv {
+      gap: 100px;
+  
+      width: 690px;
+      height: 93px;
+  
+      .creatortittledivLeft {
+        gap: 10px;
+        width: 343px;
+        height: 93px;
+  
+        p {
+          &:nth-child(1) {
+            width: 343px;
+            height: 39px !important;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 140%;
+          }
+          &:last-child {
+            width: 343px;
+            height: 44px !important;
+            font-weight: 400;
+            font-size: 16px !important;
+            line-height: 140%;
+          }
+        }
+      }
+  
+      button {
+        padding: 0px 50px;
+        gap: 12px;
+  
+        width: 247px;
+        height: 60px;
+        border: 2px solid #a259ff;
+        border-radius: 20px;
+  
+        p {
+          width: 115px;
+          height: 22px;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 140%;
+        }
+      }
+    }
+  
+    .creatorcards {
+      gap: 30px;
+      height: 360px;
+  
+      .newcard {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+        width: 330px;
+        height: 100px;
+        background: #3b3b3b;
+        border-radius: 20px;
+  
+        .numberr {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 12px;
+          top: 13px;
+  
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+          }
+        }
+  
+        img {
+          width: 60px;
+          height: 60px;
+        }
+  
+        
+      }
+    }
+  }
