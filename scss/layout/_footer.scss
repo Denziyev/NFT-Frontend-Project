@@ -467,6 +467,7 @@ footer {
 
     .footermain3{
         height: 280px;
+        width: 340px !important;
     }
 
         .footermain3down {
@@ -474,8 +475,10 @@ footer {
           flex-direction: column !important;
           gap: 16px !important;
           width: 315px !important;
+          padding: 0;
         height: 108px !important;
           background-color: transparent !important;
+          
             input {
                 display: flex;
                 flex-direction: column;

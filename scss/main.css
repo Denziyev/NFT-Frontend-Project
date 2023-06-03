@@ -724,12 +724,14 @@ footer .footerdown p {
   }
   .footermain3 {
     height: 280px;
+    width: 340px !important;
   }
   .footermain3down {
     display: flex;
     flex-direction: column !important;
     gap: 16px !important;
     width: 315px !important;
+    padding: 0;
     height: 108px !important;
     background-color: transparent !important;
   }
@@ -3279,4 +3281,4 @@ footer {
 }
 .tablerankingSection .rankingcard div .rankcardright p:nth-child(3) {
   margin-left: 25px;
-}/*# sourceMappingURL=main.css.map */
+}
