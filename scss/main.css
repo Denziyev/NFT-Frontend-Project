@@ -2353,6 +2353,262 @@ footer .footerdown p {
     line-height: 140%;
     color: #FFFFFF;
   }
+  .discoversection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 195px 80px;
+    gap: 40px;
+  }
+  .discoversection .discovertittlediv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 100px;
+    width: 690px;
+    height: 71px;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 403px;
+    height: 71px;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft p:nth-child(2) {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 12px;
+    width: 187px;
+    height: 60px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft .button1 p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .discoversection .discovercards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 690px;
+    height: 469px;
+  }
+  .discoversection .discovercards .discovercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 330px;
+    height: 469px;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  .discoversection .discovercards .discovercard:last-child {
+    display: none;
+  }
+  .discoversection .discovercards .discovercard > img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px 25px;
+    gap: 25px;
+    width: 330px;
+    height: 173px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 270px;
+    height: 60px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 270px;
+    height: 24px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar > div > img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .howitworksSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .howitworksSection .howtittlediv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  }
+  .howitworksSection .howtittlediv p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .howitworksSection .howtittlediv p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .howitworksSection .howcards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 690px;
+    height: 320px;
+  }
+  .howitworksSection .howcards .newhowcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 30px;
+    gap: 20px;
+    width: 210px;
+    height: 320px;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  .howitworksSection .howcards .newhowcard > img {
+    width: 160px;
+    height: 160px;
+  }
+  .howitworksSection .howcards .newhowcard > div {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 170px;
+    height: 100px;
+  }
+  .howitworksSection .howcards .newhowcard > div p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .howitworksSection .howcards .newhowcard > div p:nth-child(2) {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* or 17px */
+    text-align: center;
+    /* White */
+    color: #FFFFFF;
+  }
+  .joindigestSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 80px;
+    gap: 10px;
+  }
+  .joindigestSection .joindigestcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    gap: 30px;
+    width: 690px;
+    height: 360px;
+  }
+  .joindigestSection .joindigestcontainer > img {
+    width: 300px;
+    height: 280px;
+  }
+  .joindigestSection .joindigestcontainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 300px;
+    height: 280px;
+  }
+  .joindigestSection .joindigestcontainer > div .digesttop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 300px;
+    height: 132px;
+  }
 }
 @media screen and (max-width: 690px) {
   .trendingSection {
@@ -2526,7 +2782,7 @@ footer .footerdown p {
   .browseSection .browsetittle {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 10px;
     width: 315pxpx;
@@ -2542,20 +2798,24 @@ footer .footerdown p {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 30px;
-    width: 690px;
-    height: 470px;
+    gap: 20px;
+    width: 315px;
   }
   .browseSection .browsecards .newbrowsecard {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    width: 150px;
+    width: 147.5px;
     height: 209px;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  .browseSection .browsecards .newbrowsecard:last-child {
+    display: none;
   }
   .browseSection .browsecards .newbrowsecard > img {
-    width: 150px;
+    width: 147.5px;
     height: 142px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -2575,6 +2835,139 @@ footer .footerdown p {
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+  }
+  .discoversection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 60px;
+    gap: 40px;
+  }
+  .discoversection .discovertittlediv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    width: 315px;
+    height: 71px;
+  }
+  .discoversection .discovertittlediv button {
+    display: none;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 403px;
+    height: 71px;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft p:nth-child(2) {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 12px;
+    width: 187px;
+    height: 60px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+  }
+  .discoversection .discovertittlediv .discovertittledivLeft .button1 p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .discoversection .discovercards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 315px;
+  }
+  .discoversection .discovercards .discovercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 330px;
+    height: 469px;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  .discoversection .discovercards .discovercard:last-child {
+    display: initial;
+  }
+  .discoversection .discovercards .discovercard > img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 330px;
+    height: 295px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px 25px;
+    gap: 25px;
+    width: 330px;
+    height: 173px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 270px;
+    height: 60px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 270px;
+    height: 24px;
+  }
+  .discoversection .discovercards .discovercard .discovercarddown .discoveravatar > div > img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
   }
 }
 .artistfirstsection {
