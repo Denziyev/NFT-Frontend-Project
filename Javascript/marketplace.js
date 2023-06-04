@@ -1,73 +1,124 @@
-const marketplace1 = document.createElement("img");
-marketplace1.src = "../assets/image/NFTs/NFT10.png";
-const marketplace2 = document.createElement("img");
-marketplace2.src = "../assets/image/NFTs/NFT11.png";
-const marketplace3 = document.createElement("img");
-marketplace3.src = "../assets/image/NFTs/NFT12.png";
-const marketplace4 = document.createElement("img");
-marketplace4.src = "../assets/image/NFTs/NFT13.png";
-const marketplace5 = document.createElement("img");
-marketplace5.src = "../assets/image/NFTs/NFT5.png";
-const marketplace6 = document.createElement("img");
-marketplace6.src = "../assets/image/NFTs/NFT8.png";
-const marketplace7 = document.createElement("img");
-marketplace7.src = "../assets/image/NFTs/NFT7.png";
-const marketplace8 = document.createElement("img");
-marketplace8.src = "../assets/image/NFTs/NFT17.png";
-const marketplace9 = document.createElement("img");
-marketplace9.src = "../assets/image/NFTs/NFT14.png";
-const marketplace10 = document.createElement("img");
-marketplace10.src = "../assets/image/NFTs/NFT15.png";
-const marketplace11 = document.createElement("img");
-marketplace11.src = "../assets/image/NFTs/NFT16.png";
-const marketplace12 = document.createElement("img");
-marketplace12.src = "../assets/image/NFTs/NFT15.png";
 
 
-let marketplaceimages = [marketplace1, marketplace2, marketplace3,marketplace4,marketplace5,marketplace6,marketplace7,marketplace8,marketplace9,marketplace10,marketplace11,marketplace12];
-let marketplacenames = ['Magic Mushroom 0325', 'Happy Robot 032', 'Happy Robot 024','CryptoCity','ColorfulDog 0524','Designer Bear','Colorful Dog 0356','Dancing Robot 0312','Cherry Blossom Girl 035','Space Travel','Sunset Dimension','Desert Walk','IceCream Ape 0324','Colorful Dog 0344'];
+let cardss=[
+  {
+    id:"0",
+    marketplaceimage:"../assets/image/NFTs/NFT10.png",
+    marketplacename:'Magic Mushroom 0325',
+    marketplaceavatars:"../assets/image/avatars/avil/avatar7.png",
+    marketplaceavatarnames:'Shroomie',
+    fav:"no"
+  },
+  {
+    id:"1",
+    marketplaceimage:"../assets/image/NFTs/NFT11.png",
+    marketplacename:"Happy Robot 032",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar12.png",
+    marketplaceavatarnames:"BeKind2Robots",
+    fav:"no"
+  },
+  {
+    id:"2",
+    marketplaceimage:"../assets/image/NFTs/NFT12.png",
+    marketplacename:"Happy Robot 024",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar12.png",
+    marketplaceavatarnames:"BeKind2Robots",
+    fav:"no"
+  },
+  {
+    id:"3",
+    marketplaceimage:"../assets/image/NFTs/NFT13.png",
+    marketplacename:"Designer Bear",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar6.png",
+    marketplaceavatarnames:"Mr Fox",
+    fav:"no"
+  },
+  {
+    id:"4",
+    marketplaceimage:"../assets/image/NFTs/NFT5.png",
+    marketplacename:"Colorful Dog 0356",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar15.png",
+    marketplaceavatarnames:"Keepitreal",
+    fav:"no"
+  },
+  {
+    id:"5",
+    marketplaceimage:"../assets/image/NFTs/NFT8.png",
+    marketplacename:"Dancing Robot 0312",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar8.png",
+    marketplaceavatarnames:"Robotica",
+    fav:"no"
+  },
+  {
+    id:"6",
+    marketplaceimage:"../assets/image/NFTs/NFT7.png",
+    marketplacename:"Cherry Blossom Girl 035",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar16.png",
+    marketplaceavatarnames:"MoonDancer",
+    fav:"no"
+  },
+  {
+    id:"7",
+    marketplaceimage:"../assets/image/NFTs/NFT17.png",
+    marketplacename:"Space Travel",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar10.png",
+    marketplaceavatarnames:"NebulaKid",
+    fav:"no"
+  },
+  {
+    id:"8",
+    marketplaceimage:"../assets/image/NFTs/NFT14.png",
+    marketplacename:"Sunset Dimension",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar14.png",
+    marketplaceavatarnames:"Animakid",
+    fav:"no"
+  },
+  {
+    id:"9",
+    marketplaceimage:"../assets/image/NFTs/NFT15.png",
+    marketplacename:"Desert Walk",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar20.png",
+    marketplaceavatarnames:"Catch 22",
+    fav:"no"
+  },
+  {
+    id:"10",
+    marketplaceimage:"../assets/image/NFTs/NFT16.png",
+    marketplacename:"IceCream Ape 0324",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar18.png",
+    marketplaceavatarnames:"Ice Ape Club",
+    fav:"no"
+  },
+  {
+    id:"11",
+    marketplaceimage:"../assets/image/NFTs/NFT15.png",
+    marketplacename:"Colorful Dog 0344",
+    marketplaceavatars:"../assets/image/avatars/avil/avatar13.png",
+    marketplaceavatarnames:"PuppyPower",
+    fav:"no"
+  }
+]
 
 
-const marketplaceavatar1 = document.createElement("img");
-marketplaceavatar1.src = "../assets/image/avatars/avil/avatar7.png";
-const marketplaceavatar2 = document.createElement("img");
-marketplaceavatar2.src = "../assets/image/avatars/avil/avatar12.png";
-const marketplaceavatar3 = document.createElement("img");
-marketplaceavatar3.src = "../assets/image/avatars/avil/avatar12.png";
-const marketplaceavatar4 = document.createElement("img");
-marketplaceavatar4.src = "../assets/image/avatars/avil/avatar6.png";
-const marketplaceavatar5 = document.createElement("img");
-marketplaceavatar5.src = "../assets/image/avatars/avil/avatar15.png";
-const marketplaceavatar6 = document.createElement("img");
-marketplaceavatar6.src = "../assets/image/avatars/avil/avatar8.png";
-const marketplaceavatar7 = document.createElement("img");
-marketplaceavatar7.src = "../assets/image/avatars/avil/avatar16.png";
-const marketplaceavatar8 = document.createElement("img");
-marketplaceavatar8.src = "../assets/image/avatars/avil/avatar10.png";
-const marketplaceavatar9 = document.createElement("img");
-marketplaceavatar9.src = "../assets/image/avatars/avil/avatar14.png";
-const marketplaceavatar10 = document.createElement("img");
-marketplaceavatar10.src = "../assets/image/avatars/avil/avatar20.png";
-const marketplaceavatar11 = document.createElement("img");
-marketplaceavatar11.src = "../assets/image/avatars/avil/avatar18.png";
-const marketplaceavatar12 = document.createElement("img");
-marketplaceavatar12.src = "../assets/image/avatars/avil/avatar13.png";
 
-let marketplaceavatars=[marketplaceavatar1,marketplaceavatar2,marketplaceavatar3,marketplaceavatar4,marketplaceavatar5,marketplaceavatar6,marketplaceavatar7,marketplaceavatar8,marketplaceavatar9,marketplaceavatar10,marketplaceavatar11,marketplaceavatar12]
-let marketplaceavatarnames = ['Shroomie','BeKind2Robots','BeKind2Robots','Mr Fox','Keepitreal','Robotica','MoonDancer','NebulaKid','Animakid','Catch 22','Ice Ape Club','PuppyPower'];
+
 
 const marketplacecards = document.querySelector(".marketplacecards")
-for (i = 0; i < marketplaceimages.length; i++) {
-    const newmarketplacecard = document.createElement("div");
-    newmarketplacecard.className = "marketplacecard";
-    newmarketplacecard.innerHTML = `
-    <img src=${marketplaceimages[i].src}>
+for (i = 0; i < cardss.length; i++) {
+  const newmarketplacecard = document.createElement("div");
+  newmarketplacecard.className = "marketplacecard";
+  newmarketplacecard.innerHTML = `
+    <div>
+    <img src=${cardss[i].marketplaceimage}>
+    <img class="like1"src="../assets/icons/like1.svg">
+    <img class="like2 hide " src="../assets/icons/like2.svg">
+    </div>
         <div class="marketplacecarddown">
           <div class="marketplaceavatar">
-              <p>${marketplacenames[i]}</p>
+              <p class="searchname1">${cardss[i].marketplacename}</p>
             <div>
-                <img src=${marketplaceavatars[i].src} alt="">
-              <p>${marketplaceavatarnames[i]}</p>
+                <img src=${cardss[i].marketplaceavatars} alt="">
+              <p class="searchname2">${cardss[i].marketplaceavatarnames}</p>
             </div>
           </div>
 
@@ -83,5 +134,84 @@ for (i = 0; i < marketplaceimages.length; i++) {
       </div>
     </div>
     `;
-    marketplacecards.append(newmarketplacecard);
+  marketplacecards.append(newmarketplacecard);
 }
+
+
+
+
+const like1 = document.querySelectorAll(".like1");
+const like2 = document.querySelectorAll(".like2");
+let number=0;
+let numberfavv=document.querySelector(".numberfav");
+numberfavv.textContent=number;
+
+for (let i = 0; i < like1.length; i++) {
+  like1[i].addEventListener("click", (e) => {
+
+    e.target.classList.toggle("hide");
+    like2[i].classList.toggle("hide");
+    cardss[i].fav="yes";
+  
+    localStorage.setItem(`fav${cardss[i].id}`,`${cardss[i].fav}`);
+
+    number++;
+    numberfavv.textContent=number;
+    
+  })
+
+  like2[i].addEventListener("click", (e) => {
+
+    e.target.classList.toggle("hide");
+    like1[i].classList.toggle("hide");
+    cardss[i].fav="no";
+    localStorage.setItem(`fav${cardss[i].id}`,`${cardss[i].fav}`);
+    number--;
+    numberfavv.textContent=number;
+    
+  })
+}
+
+
+
+const allcardschoose=document.querySelector(".allcardschoose");
+const favcardschoose=document.querySelector(".favcardschoose");
+const marketplacecardscount=document.querySelectorAll(".marketplacecard")
+
+
+
+
+
+favcardschoose.addEventListener("click",()=>{
+  for (i = 0; i < cardss.length; i++) {
+    if(localStorage.getItem(`fav${cardss[i].id}`,`${cardss[i].fav}`)=="no"){
+      marketplacecardscount[i].style.display="none";
+  }}
+})
+
+allcardschoose.addEventListener("click",()=>{
+  for (i = 0; i < cardss.length; i++) {
+      marketplacecardscount[i].style.display="inline-block";
+  }
+})
+
+
+
+document.querySelector(".marketplacefirstdown").addEventListener ("keyup",(e) => {
+  // const searchcards1=Array.from(Array.from(document.getElementsByClassName("marketplacecard")).filter((e)=>e.style.display!="none"))
+  const searchcards1=Array.from(document.getElementsByClassName("marketplacecard"));
+  const value = e.target.value;
+
+
+  searchcards1.forEach((kart)=>{
+             const tittle=kart.querySelector(".searchname1").textContent.trim().toLocaleLowerCase();
+             const text = kart.querySelector('.searchname2').textContent.trim().toLowerCase();
+             if(tittle.includes(value.toLocaleLowerCase()) || text.includes(value.toLocaleLowerCase())){
+              kart.style.display = "inline-block";
+             }else{
+              kart.style.display="none";
+             }
+
+    });
+   
+  })
