@@ -1481,6 +1481,10 @@
         width: 330px;
         height: 525px;
 
+        &:last-child {
+          display: none;
+        }
+
         .trendingcardtop {
           img {
             width: 330px;
@@ -1492,31 +1496,40 @@
   }
 
   .creatortittlediv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
     gap: 100px;
-
     width: 690px;
     height: 93px;
 
     .creatortittledivLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
       gap: 10px;
+
       width: 343px;
       height: 93px;
 
       p {
         &:nth-child(1) {
-          width: 343px;
-          height: 39px !important;
+          font-family: 'Work Sans';
+          font-style: normal;
           font-weight: 600;
           font-size: 28px;
           line-height: 140%;
         }
 
         &:last-child {
-          width: 343px;
-          height: 44px !important;
+          font-family: 'Work Sans';
+          font-style: normal;
           font-weight: 400;
-          font-size: 16px !important;
+          font-size: 16px;
           line-height: 140%;
+          /* or 22px */
         }
       }
     }
@@ -1541,8 +1554,12 @@
   }
 
   .creatorcards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     gap: 30px;
-    height: 360px;
+    width: 690px;
 
     .newcard {
       display: flex;
@@ -1551,10 +1568,28 @@
       align-items: flex-start;
       padding: 20px;
       gap: 20px;
-      width: 330px;
+      isolation: isolate;
+
+      width: 330px !important;
       height: 100px;
-      background: #3b3b3b;
+
+      background: #3B3B3B;
       border-radius: 20px;
+
+      &:nth-child(12),
+      &:nth-child(11),
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9),
+      &:nth-child(10) {
+        display: none;
+      }
+
+      img {
+
+        width: 60px;
+        height: 60px;
+      }
 
       .numberr {
         position: absolute;
@@ -1576,6 +1611,362 @@
       }
 
 
+    }
+  }
+
+  .browseSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+
+    .browsetittle {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+
+      width: 690px;
+
+      p {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        /* or 39px */
+      }
+    }
+
+    .browsecards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+      width: 690px;
+      height: 470px;
+
+      .newbrowsecard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        width: 150px;
+        height: 209px;
+
+        >img {
+          width: 150px;
+          height: 142px;
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px 20px 25px;
+          gap: 25px;
+          width: 100%;
+          height: 67px;
+
+          p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .trendingSection {
+    width: 315px;
+    margin: auto;
+
+    .trendingtittlediv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+
+      width: 315px;
+      height: 93px;
+
+      p {
+        &:first-child {
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 140%;
+          /* or 39px */
+
+          text-transform: capitalize;
+
+          /* White */
+
+          color: #FFFFFF;
+
+        }
+
+        &:nth-child(2) {
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .trendingcards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+      width: 315px;
+      height: 505px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+
+      .trendingcard {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px;
+
+        width: 315px;
+        height: 505px;
+
+        background: #2B2B2B;
+        border-radius: 20px;
+        overflow: hidden;
+
+        &:nth-child(2) {
+          display: none;
+        }
+
+        &:nth-child(3) {
+          display: none;
+        }
+
+        .trendingcardmiddle {
+          img {
+            width: 95px;
+            height: 95px;
+          }
+        }
+
+        .trendingcardtop {
+          img {
+            width: 315px;
+          }
+        }
+      }
+    }
+  }
+
+  .creatortittlediv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 100px;
+
+    width: 315px;
+    height: 93px;
+
+    .creatortittledivLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+
+      width: 315px;
+      height: 93px;
+
+      p {
+        &:nth-child(1) {
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 140%;
+        }
+
+        &:last-child {
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          /* or 22px */
+        }
+      }
+    }
+
+    button {
+      padding: 0px 50px;
+      gap: 12px;
+
+      width: 247px;
+      height: 60px;
+      border: 2px solid #a259ff;
+      border-radius: 20px;
+      display: none;
+
+      p {
+        width: 115px;
+        height: 22px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+  }
+
+  .creatorcards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 315px;
+    height: 580px;
+
+    .newcard {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+      gap: 20px;
+      width: 330px !important;
+      height: 100px;
+
+      background: #3B3B3B;
+      border-radius: 20px;
+
+      &:nth-child(12),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(11),
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9),
+      &:nth-child(10) {
+        display: none;
+      }
+
+      img {
+
+        width: 60px;
+        height: 60px;
+      }
+
+      .numberr {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 12px;
+        top: 13px;
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+        }
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+  .browseSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+
+    .browsetittle {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+
+      width: 315pxpx;
+
+      p {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        /* or 39px */
+      }
+    }
+
+    .browsecards {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 30px;
+      width: 690px;
+      height: 470px;
+
+      .newbrowsecard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+        width: 150px;
+        height: 209px;
+
+        >img {
+          width: 150px;
+          height: 142px;
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px 20px 25px;
+          gap: 25px;
+          width: 100%;
+          height: 67px;
+
+          p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+
+            color: #FFFFFF;
+          }
+        }
+      }
     }
   }
 }
