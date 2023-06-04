@@ -6,7 +6,6 @@
     gap: 40px;
 
     width: 100%;
-    height: 271px;
 
     /* Background */
 
@@ -82,6 +81,10 @@
     flex: none;
     order: 2;
 
+    .secondTag {
+        display: none;
+    }
+
     div {
         display: flex;
         flex-direction: row;
@@ -107,28 +110,29 @@
                 height: 31px;
 
                 /* H5 - Work Sans */
-                
+
                 font-family: 'Work Sans';
                 font-style: normal;
                 font-weight: 600;
                 font-size: 22px;
                 line-height: 140%;
                 /* identical to box height, or 31px */
-                
+
                 text-align: center;
                 text-transform: capitalize;
-                
+
                 /* Caption & Label Text */
-                
+
                 color: #858584;
-                
+
 
             }
         }
-        div:hover{
+
+        div:hover {
             border-bottom: 2px solid #858584;
 
-            p{
+            p {
                 color: #FFFFFF;
             }
         }
@@ -144,7 +148,6 @@
     gap: 20px;
 
     width: 100%;
-    height: 2206px;
 
     /* Background */
 
@@ -232,7 +235,7 @@
 
     }
 
-    .rankingcard:hover{
+    .rankingcard:hover {
         border: 1px solid #FFFFFF;
     }
 
@@ -391,4 +394,615 @@
         }
 
     }
+}
+
+@media only screen and (max-width:1050px) {
+    .topcreatorSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0px;
+        gap: 40px;
+
+        >div {
+            width: 690px;
+
+            p:nth-child(1) {
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 51px;
+                line-height: 110%;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+
+            p:nth-child(2) {
+                height: 35px;
+
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 160%;
+                /* or 35px */
+
+
+                /* White */
+
+                color: #FFFFFF;
+
+            }
+        }
+    }
+
+    .rankingsmenuSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+        gap: 10px;
+
+        .secondTag {
+            display: none;
+        }
+
+        div {
+            width: 690px;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                gap: 16px;
+                width: 170px;
+                height: 60px;
+
+                p {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #858584;
+                    ;
+                }
+            }
+
+            div:hover {
+                border-bottom: 2px solid #858584;
+
+                p {
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+
+    .tablerankingSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 20px;
+        background: #2B2B2B;
+
+        .tabletittle {
+            width: 690px;
+
+            p {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #858584;
+
+            }
+
+            >div {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 20px;
+                width: 690px;
+                height: 22px;
+
+                .tittleleft {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+
+                    width: 430px;
+                    height: 22px;
+
+
+                }
+
+                .tittleright {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+
+                    width: 220px;
+                    height: 22px;
+
+                    p {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+
+                        width: 100px;
+                        height: 22px;
+                    }
+
+                    p:nth-child(2) {
+                        margin-left: 37px;
+                    }
+
+                    p {
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+        .rankingcard:hover {
+            border: 1px solid #FFFFFF;
+        }
+
+        .rankingcard {
+            width: 690px;
+            background: #3B3B3B;
+            border-radius: 20px;
+            height: 60px;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 20px;
+                width: 690px;
+                height: 31px;
+
+                .rankcardleft {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    justify-content: flex-start;
+                    padding: 0px;
+                    gap: 20px;
+
+                    height: 31px;
+
+                    div {
+                        &:first-child {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0px;
+                            isolation: isolate;
+
+                            width: 24px;
+                            height: 24px;
+
+                            P {
+                                font-family: 'Space Mono';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 140%;
+                                /* or 22px */
+
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+
+                                /* Caption & Label Text */
+
+                                color: #858584;
+                            }
+                        }
+                    }
+
+                    .rankcardleftright {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px;
+                        gap: 12px;
+                        width: 240px;
+                        height: 31px;
+                        border-radius: 20px;
+                        background-color: transparent;
+
+                        img {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            padding: 0px;
+                            gap: 10px;
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        p {
+
+                            font-weight: 600;
+                            font-size: 17px;
+                            line-height: 140%;
+                            /* identical to box height, or 31px */
+
+                        }
+                    }
+
+                }
+
+                .rankcardright {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+
+                    width: 220px;
+                    height: 22px;
+
+                    P {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+
+                        width: 100px;
+                        height: 22px;
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+        }
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:690px) {
+    .topcreatorSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+        gap: 40px;
+
+        >div {
+            width: 315px;
+
+            p:nth-child(1) {
+                font-family: 'Work Sans';
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 140%;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+
+            p:nth-child(2) {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                /* or 22px */
+
+            }
+        }
+    }
+
+    .rankingsmenuSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+        gap: 10px;
+
+        div {
+            width: 315px;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                gap: 16px;
+
+                width: 78.75px;
+                height: 60px;
+
+                P {
+                    &:first-child {
+                        display: none;
+                    }
+                }
+
+                .secondTag {
+                    display: initial;
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #858584;
+                }
+            }
+
+            div:hover {
+                border-bottom: 2px solid #858584;
+
+                p {
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+
+    .tablerankingSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 20px;
+        background: #2B2B2B;
+
+        .tabletittle {
+            width: 315px;
+
+            p {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 110%;
+                color: #858584;
+
+            }
+
+            >div {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px 10px;
+                width: 315px;
+                height: 22px;
+
+
+                .tittleleft {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 10px;
+
+                    width: 215px;
+                    height: 22px;
+
+                }
+
+                .tittleright {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+
+                    width: 100px;
+                    height: 13px;
+
+                    p {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+                        width: 100px;
+                        height: 13px;
+                    }
+
+                    p:nth-child(2) {
+                        margin-left: 37px;
+                    }
+
+                    p {
+                        &:nth-child(1) {
+                            display: none;
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+        .rankingcard:hover {
+            border: 1px solid #FFFFFF;
+        }
+
+        .rankingcard {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0px;
+            gap: 10px;
+            width: 315px;
+            height: 50px;
+            background: #3B3B3B;
+            border-radius: 20px;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 10px;
+
+                width: 315px;
+                height: 24px;
+
+                .rankcardleft {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 12px;
+
+                    width: 167px;
+                    height: 24px;
+
+                    div {
+                        &:first-child {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            padding: 0px;
+                            gap: 10px;
+                            width: 24px;
+                            height: 15px;
+
+                            P {
+                                font-family: 'Space Mono';
+                                font-style: normal;
+                                font-size: 12px;
+                                line-height: 110%;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                color: #858584;
+                            }
+                        }
+                    }
+
+                    .rankcardleftright {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px;
+                        gap: 12px;
+
+                        width: 167px;
+                        height: 24px;
+
+                        img {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            padding: 0px;
+                            gap: 10px;
+
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        p {
+                            font-family: 'Space Mono';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 8px;
+                            line-height: 110%;
+                            /* or 13px */
+
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+
+                }
+
+                .rankcardright {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+
+                    width: 220px;
+                    height: 22px;
+
+                    P {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+
+                        width: 100px;
+                        height: 22px;
+
+                        &:nth-child(1) {
+                            display: none;
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+        }
+    }
+
+
 }

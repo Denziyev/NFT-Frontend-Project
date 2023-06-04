@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 80px 0;
     gap: 30px;
     margin-bottom: 80px;
 
@@ -50,32 +50,42 @@
         width: 100%;
     }
 
-    .marketplacefirstdown {
+    .searchdiv {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 20px;
+        padding: 12px 0px;
         gap: 10px;
+        width: 1050px;
         height: 60px;
-        width: 100%;
-
-        color: #FFFFFF;
-        background-color: transparent;
-        /* Background - Secondary */
-
         border: 1px solid #3B3B3B;
         border-radius: 20px;
 
+        .marketplacefirstdown {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            width: 1000px;
+            height: 24px;
+            background-color: transparent;
+            border: none;
+
+            &:focus {
+                outline: none;
+
+            }
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+
+        }
     }
 
-    img {
-        position: relative;
-        top: -43px;
-        left: 1000px;
-        width: 24px;
-        height: 24px;
-    }
 
 
 
@@ -84,7 +94,7 @@
 
 
 .marketplacemenu {
-    
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -105,7 +115,7 @@
 
 
         p {
-            
+
             font-family: 'Work Sans';
             font-style: normal;
             font-weight: 600;
@@ -155,17 +165,18 @@
     }
 }
 
-.like1,.like2{
-    &:hover{
-        cursor:pointer;
+.like1,
+.like2 {
+    &:hover {
+        cursor: pointer;
     }
 }
 
-.hide{
+.hide {
     display: none !important;
 }
 
-.marketplacecardss{
+.marketplacecardss {
     width: 100%;
     background-color: #3B3B3B;
 }
@@ -198,24 +209,26 @@
 
         /* Inside auto layout */
 
-      div{
-        &:nth-child(1){
-           position: relative;
-            img:nth-child(2){
-                position: absolute;
-                right: 10px;
-                top: 10px;
-                width: 30px;
-            }
-            img:nth-child(3){
-                position: absolute;
-                right: 10px;
-                top: 10px;
-                width: 30px;
-            }
+        div {
+            &:nth-child(1) {
+                position: relative;
 
+                img:nth-child(2) {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    width: 30px;
+                }
+
+                img:nth-child(3) {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    width: 30px;
+                }
+
+            }
         }
-      }
 
         .marketplacecarddown {
             display: flex;
@@ -494,4 +507,130 @@
             }
         }
     }
+}
+
+
+
+
+@media screen and (max-width:1050px) {
+    .firstmarketplacesection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+        width: 680px;
+
+        .marketplacefirsttop {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+            width: 680px;
+            height: 78px;
+
+            p {
+                &:first-child {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 38px;
+                    line-height: 120%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                }
+
+                &:nth-child(2) {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+
+        .searchdiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0px;
+            gap: 10px;
+
+            width: 680px;
+            height: 60px;
+
+            /* Background - Secondary */
+
+            border: 1px solid #3B3B3B;
+            border-radius: 20px;
+
+            .marketplacefirstdown {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 20px;
+                width: 680px;
+                height: 24px;
+            }
+        }
+
+    }
+
+    // .Container {
+    //     width: 690px;
+
+    //     .marketplacefirsttop {
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: flex-start;
+    //         padding: 0px;
+    //         gap: 10px;
+    //         width: 680px;
+    //         height: 78px;
+
+    //         p {
+    //             &:nth-child(1) {
+    //                 width: 680px;
+    //                 height: 46px;
+
+    //                 font-family: 'Work Sans';
+    //                 font-style: normal;
+    //                 font-weight: 600;
+    //                 font-size: 38px;
+    //                 line-height: 120%;
+    //                 display: flex;
+    //                 align-items: center;
+    //                 text-transform: capitalize;
+
+
+    //                 color: #FFFFFF;
+    //             }
+    //         }
+
+    //         p {
+    //             &:nth-child(2) {
+    //                 width: 680px;
+    //                 height: 22px;
+
+    //                 font-family: 'Work Sans';
+    //                 font-style: normal;
+    //                 font-weight: 400;
+    //                 font-size: 16px;
+    //                 line-height: 140%;
+    //                 /* or 22px */
+    //                 color: #FFFFFF;
+
+    //             }
+    //         }
+    //     }
+
+    // }
 }

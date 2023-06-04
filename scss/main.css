@@ -780,7 +780,7 @@ footer .footerdown p {
   }
   .footerdown {
     gap: 20px;
-    width: 690px;
+    width: 690px !important;
   }
 }
 @media screen and (max-width: 690px) {
@@ -864,7 +864,7 @@ footer .footerdown p {
   }
   .footerdown {
     gap: 20px;
-    width: 315px;
+    width: 315px !important;
     height: 33px;
   }
 }
@@ -2850,7 +2850,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 80px 0;
   gap: 30px;
   margin-bottom: 80px;
 }
@@ -2887,25 +2887,33 @@ footer {
 .firstmarketplacesection div:nth-child(2) {
   width: 100%;
 }
-.firstmarketplacesection .marketplacefirstdown {
+.firstmarketplacesection .searchdiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 20px;
+  padding: 12px 0px;
   gap: 10px;
+  width: 1050px;
   height: 60px;
-  width: 100%;
-  color: #FFFFFF;
-  background-color: transparent;
-  /* Background - Secondary */
   border: 1px solid #3B3B3B;
   border-radius: 20px;
 }
-.firstmarketplacesection img {
-  position: relative;
-  top: -43px;
-  left: 1000px;
+.firstmarketplacesection .searchdiv .marketplacefirstdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 1000px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+}
+.firstmarketplacesection .searchdiv .marketplacefirstdown:focus {
+  outline: none;
+}
+.firstmarketplacesection .searchdiv img {
   width: 24px;
   height: 24px;
 }
@@ -2970,7 +2978,8 @@ footer {
   background: #858584;
 }
 
-.like1:hover, .like2:hover {
+.like1:hover,
+.like2:hover {
   cursor: pointer;
 }
 
@@ -3202,6 +3211,66 @@ footer {
   flex-grow: 0;
 }
 
+@media screen and (max-width: 1050px) {
+  .firstmarketplacesection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 680px;
+  }
+  .firstmarketplacesection .marketplacefirsttop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 680px;
+    height: 78px;
+  }
+  .firstmarketplacesection .marketplacefirsttop p:first-child {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .firstmarketplacesection .marketplacefirsttop p:nth-child(2) {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .firstmarketplacesection .searchdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 10px;
+    width: 680px;
+    height: 60px;
+    /* Background - Secondary */
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+  }
+  .firstmarketplacesection .searchdiv .marketplacefirstdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 680px;
+    height: 24px;
+  }
+}
 .topcreatorSection {
   display: flex;
   flex-direction: column;
@@ -3209,7 +3278,6 @@ footer {
   padding: 80px 0px;
   gap: 40px;
   width: 100%;
-  height: 271px;
   /* Background */
   background: #2B2B2B;
   /* Inside auto layout */
@@ -3264,6 +3332,9 @@ footer {
   flex: none;
   order: 2;
 }
+.rankingsmenuSection .secondTag {
+  display: none;
+}
 .rankingsmenuSection div {
   display: flex;
   flex-direction: row;
@@ -3310,7 +3381,6 @@ footer {
   padding: 40px 0px;
   gap: 20px;
   width: 100%;
-  height: 2206px;
   /* Background */
   background: #2B2B2B;
   /* Inside auto layout */
@@ -3489,4 +3559,476 @@ footer {
 }
 .tablerankingSection .rankingcard div .rankcardright p:nth-child(3) {
   margin-left: 25px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .topcreatorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 40px;
+  }
+  .topcreatorSection > div {
+    width: 690px;
+  }
+  .topcreatorSection > div p:nth-child(1) {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .topcreatorSection > div p:nth-child(2) {
+    height: 35px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    /* White */
+    color: #FFFFFF;
+  }
+  .rankingsmenuSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+  }
+  .rankingsmenuSection .secondTag {
+    display: none;
+  }
+  .rankingsmenuSection div {
+    width: 690px;
+  }
+  .rankingsmenuSection div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 16px;
+    width: 170px;
+    height: 60px;
+  }
+  .rankingsmenuSection div div p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #858584;
+  }
+  .rankingsmenuSection div div:hover {
+    border-bottom: 2px solid #858584;
+  }
+  .rankingsmenuSection div div:hover p {
+    color: #FFFFFF;
+  }
+  .tablerankingSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 20px;
+    background: #2B2B2B;
+  }
+  .tablerankingSection .tabletittle {
+    width: 690px;
+  }
+  .tablerankingSection .tabletittle p {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+  }
+  .tablerankingSection .tabletittle > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 690px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 430px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 220px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 100px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p:nth-child(2) {
+    margin-left: 37px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p:nth-child(2) {
+    display: none;
+  }
+  .tablerankingSection .rankingcard:hover {
+    border: 1px solid #FFFFFF;
+  }
+  .tablerankingSection .rankingcard {
+    width: 690px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    height: 60px;
+  }
+  .tablerankingSection .rankingcard div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 690px;
+    height: 31px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 20px;
+    height: 31px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    width: 24px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft div:first-child P {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Caption & Label Text */
+    color: #858584;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 240px;
+    height: 31px;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+  }
+  .tablerankingSection .rankingcard div .rankcardright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 220px;
+    height: 22px;
+  }
+  .tablerankingSection .rankingcard div .rankcardright P {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 100px;
+    height: 22px;
+  }
+  .tablerankingSection .rankingcard div .rankcardright P:nth-child(2) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .topcreatorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 40px;
+  }
+  .topcreatorSection > div {
+    width: 315px;
+  }
+  .topcreatorSection > div p:nth-child(1) {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .topcreatorSection > div p:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+  }
+  .rankingsmenuSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+  }
+  .rankingsmenuSection div {
+    width: 315px;
+  }
+  .rankingsmenuSection div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 16px;
+    width: 78.75px;
+    height: 60px;
+  }
+  .rankingsmenuSection div div P:first-child {
+    display: none;
+  }
+  .rankingsmenuSection div div .secondTag {
+    display: initial;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #858584;
+  }
+  .rankingsmenuSection div div:hover {
+    border-bottom: 2px solid #858584;
+  }
+  .rankingsmenuSection div div:hover p {
+    color: #FFFFFF;
+  }
+  .tablerankingSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 20px;
+    background: #2B2B2B;
+  }
+  .tablerankingSection .tabletittle {
+    width: 315px;
+  }
+  .tablerankingSection .tabletittle p {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #858584;
+  }
+  .tablerankingSection .tabletittle > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    width: 315px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 215px;
+    height: 22px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100px;
+    height: 13px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 100px;
+    height: 13px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p:nth-child(2) {
+    margin-left: 37px;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p:nth-child(1) {
+    display: none;
+  }
+  .tablerankingSection .tabletittle > div .tittleright p:nth-child(2) {
+    display: none;
+  }
+  .tablerankingSection .rankingcard:hover {
+    border: 1px solid #FFFFFF;
+  }
+  .tablerankingSection .rankingcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 10px;
+    width: 315px;
+    height: 50px;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  .tablerankingSection .rankingcard div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 315px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 167px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 15px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft div:first-child P {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #858584;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 167px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .tablerankingSection .rankingcard div .rankcardleft .rankcardleftright p {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 110%;
+    /* or 13px */
+    display: flex;
+    align-items: center;
+  }
+  .tablerankingSection .rankingcard div .rankcardright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 220px;
+    height: 22px;
+  }
+  .tablerankingSection .rankingcard div .rankcardright P {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 100px;
+    height: 22px;
+  }
+  .tablerankingSection .rankingcard div .rankcardright P:nth-child(1) {
+    display: none;
+  }
+  .tablerankingSection .rankingcard div .rankcardright P:nth-child(2) {
+    display: none;
+  }
 }
