@@ -158,7 +158,7 @@ const marketplacecardscount = document.querySelectorAll(".marketplacecard")
 
 favcardschoose.addEventListener("click", () => {
   for (i = 0; i < cardss.length; i++) {
-    if (localStorage.getItem(`fav${cardss[i].id}`, `${cardss[i].fav}`) == "no") {
+    if (cardss[i].fav == "no") {
       marketplacecardscount[i].style.display = "none";
     }
   }
@@ -199,7 +199,6 @@ for (let i = 0; i < like1.length; i++) {
     like2[i].classList.toggle("hide");
     cardss[i].fav = "yes";
 
-    SetLocal[i]
 
     number++;
     numberfavv.textContent = number;

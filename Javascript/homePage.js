@@ -166,5 +166,51 @@ for(let i=0;i<howimages.length;i++){
 
 //-------------------------------------------------------------
 
+const footerinput=document.querySelector(".footerinput")
+const footerbutton=document.querySelector(".footerbutton")
+const footermain3=document.querySelector(".footermain2")
 
+
+const newtoast=document.createElement("div");
+const newp=document.createElement("p");
+newtoast.style.width="250px";
+newtoast.style.height="60px";
+newp.style.color="white";
+newp.style.fontSize="16px";
+newtoast.style.display="flex";
+newtoast.style.justifyContent="center";
+newtoast.style.alignItems="center";
+newtoast.style.position="fixed";
+document.body.style.position="relative";
+newtoast.style.left="75vw";
+newtoast.style.bottom="85vh";
+
+
+
+footerbutton.addEventListener("click", () => {
+  console.log(ValidateEmail(footerinput.value));
+  if (ValidateEmail(footerinput.value)) {
+    newtoast.style.backgroundColor = "green";
+    newp.textContent = "This mail is valid";
+  } else {
+    newtoast.style.backgroundColor = "red";
+    newp.textContent = "This mail is invalid";
+  }
+  newtoast.append(newp);
+  footermain3.append(newtoast);
+
+  setTimeout(() => {
+    newtoast.remove();
+  }, 2000);
+});
+
+
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/.test(mail))
+  {
+    return (true)
+  }
+    return (false)
+}
 

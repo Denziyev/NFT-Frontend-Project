@@ -106,7 +106,8 @@ body {
                     width: 330px;
                     height: 46px;
                     background: #FFFFFF;
-                    border: 1px solid #858584;
+                    border:5px solid green;
+                    border-color: transparent;
                     border-radius: 20px;
 
                     img {
@@ -130,6 +131,10 @@ body {
                         color: #2B2B2B;
                     }
                 }
+            }
+            p{
+                font-size: 16px;
+                height: 22px;
             }
 
             button {
